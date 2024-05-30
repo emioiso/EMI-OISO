@@ -14,6 +14,7 @@
 		85F4EA1A2C083F4700AA9202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F4EA192C083F4700AA9202 /* Assets.xcassets */; };
 		85F4EA1D2C083F4700AA9202 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 85F4EA1C2C083F4700AA9202 /* Base */; };
 		85F4EA252C083FB200AA9202 /* .gitignore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F4EA242C083FB200AA9202 /* .gitignore.xib */; };
+		85F4EA272C08492D00AA9202 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA262C08492D00AA9202 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		85F4EA1C2C083F4700AA9202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85F4EA1E2C083F4700AA9202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F4EA242C083FB200AA9202 /* .gitignore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = .gitignore.xib; sourceTree = "<group>"; };
+		85F4EA262C08492D00AA9202 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 			children = (
 				85F4EA102C083F4600AA9202 /* AppDelegate.swift */,
 				85F4EA122C083F4600AA9202 /* SceneDelegate.swift */,
-				85F4EA142C083F4600AA9202 /* ViewController.swift */,
 				85F4EA162C083F4600AA9202 /* Main.storyboard */,
+				85F4EA142C083F4600AA9202 /* ViewController.swift */,
+				85F4EA262C08492D00AA9202 /* MenuViewController.swift */,
 				85F4EA192C083F4700AA9202 /* Assets.xcassets */,
 				85F4EA1B2C083F4700AA9202 /* LaunchScreen.storyboard */,
 				85F4EA1E2C083F4700AA9202 /* Info.plist */,
@@ -145,6 +148,7 @@
 				85F4EA152C083F4600AA9202 /* ViewController.swift in Sources */,
 				85F4EA112C083F4600AA9202 /* AppDelegate.swift in Sources */,
 				85F4EA132C083F4600AA9202 /* SceneDelegate.swift in Sources */,
+				85F4EA272C08492D00AA9202 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +308,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,7 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
