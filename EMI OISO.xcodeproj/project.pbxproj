@@ -15,9 +15,12 @@
 		85F4EA1D2C083F4700AA9202 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 85F4EA1C2C083F4700AA9202 /* Base */; };
 		85F4EA252C083FB200AA9202 /* .gitignore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F4EA242C083FB200AA9202 /* .gitignore.xib */; };
 		85F4EA272C08492D00AA9202 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA262C08492D00AA9202 /* MenuViewController.swift */; };
+		BBA78E573F624F99A4228BE6 /* Pods_EMI_OISO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD096DA4119FB8878A23A14E /* Pods_EMI_OISO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46A1F4B5C6B879866D797202 /* Pods-EMI OISO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMI OISO.release.xcconfig"; path = "Target Support Files/Pods-EMI OISO/Pods-EMI OISO.release.xcconfig"; sourceTree = "<group>"; };
+		822E5E6771DB5F6EE920CB19 /* Pods-EMI OISO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMI OISO.debug.xcconfig"; path = "Target Support Files/Pods-EMI OISO/Pods-EMI OISO.debug.xcconfig"; sourceTree = "<group>"; };
 		85F4EA0D2C083F4600AA9202 /* EMI OISO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EMI OISO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F4EA102C083F4600AA9202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F4EA122C083F4600AA9202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		85F4EA1E2C083F4700AA9202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F4EA242C083FB200AA9202 /* .gitignore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = .gitignore.xib; sourceTree = "<group>"; };
 		85F4EA262C08492D00AA9202 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DD096DA4119FB8878A23A14E /* Pods_EMI_OISO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMI_OISO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,18 +39,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA78E573F624F99A4228BE6 /* Pods_EMI_OISO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		331E03815C16AE2D50CDDD0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				822E5E6771DB5F6EE920CB19 /* Pods-EMI OISO.debug.xcconfig */,
+				46A1F4B5C6B879866D797202 /* Pods-EMI OISO.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F5F61D840DCC152C8E7EA1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD096DA4119FB8878A23A14E /* Pods_EMI_OISO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85F4EA042C083F4600AA9202 = {
 			isa = PBXGroup;
 			children = (
 				85F4EA242C083FB200AA9202 /* .gitignore.xib */,
 				85F4EA0F2C083F4600AA9202 /* EMI OISO */,
 				85F4EA0E2C083F4600AA9202 /* Products */,
+				331E03815C16AE2D50CDDD0E /* Pods */,
+				3F5F61D840DCC152C8E7EA1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85F4EA212C083F4700AA9202 /* Build configuration list for PBXNativeTarget "EMI OISO" */;
 			buildPhases = (
+				C86FFE887AC9484720DEFF5F /* [CP] Check Pods Manifest.lock */,
 				85F4EA092C083F4600AA9202 /* Sources */,
 				85F4EA0A2C083F4600AA9202 /* Frameworks */,
 				85F4EA0B2C083F4600AA9202 /* Resources */,
+				8435F718B7724AEEC69536B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +166,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8435F718B7724AEEC69536B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86FFE887AC9484720DEFF5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMI OISO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85F4EA092C083F4600AA9202 /* Sources */ = {
@@ -295,6 +364,7 @@
 		};
 		85F4EA222C083F4700AA9202 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822E5E6771DB5F6EE920CB19 /* Pods-EMI OISO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,6 +394,7 @@
 		};
 		85F4EA232C083F4700AA9202 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A1F4B5C6B879866D797202 /* Pods-EMI OISO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
