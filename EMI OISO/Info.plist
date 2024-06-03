@@ -25,5 +25,7 @@
 	<string>ca-app-pub-7923877881339580~5255157417</string>
 	<key>GADIsManagerApp</key>
 	<string>true</string>
+	<key>SKAdNetworkIdentifier</key>
+	<string>cstr6suwn9.skadnetwork</string>
 </dict>
 </plist>
