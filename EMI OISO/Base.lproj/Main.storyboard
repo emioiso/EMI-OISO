@@ -49,9 +49,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iK2-rC-y56">
-                                <rect key="frame" x="122.66666666666669" y="350" width="169" height="35"/>
+                                <rect key="frame" x="92.666666666666686" y="350" width="229" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="1月1日に考えたこと"/>
+                                <buttonConfiguration key="configuration" style="filled" title="2024年1月1日に考えたこと"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhn-Q9-SLQ">
                                 <rect key="frame" x="179" y="485" width="56" height="35"/>
@@ -63,35 +63,37 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="作品"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9u-f2-mMM">
-                                <rect key="frame" x="187.66666666666666" y="50" width="39" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="←"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="zhW-Lf-brm"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book" translatesAutoresizingMaskIntoConstraints="NO" id="lL3-lz-FcS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book1" translatesAutoresizingMaskIntoConstraints="NO" id="lL3-lz-FcS">
                                 <rect key="frame" x="107" y="100" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="QYy-6q-2Q5"/>
                                     <constraint firstAttribute="height" constant="200" id="nQZ-3g-dgQ"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edZ-UT-4XS">
+                                <rect key="frame" x="30" y="50" width="78" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="〈  back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="Jnm-ad-jQm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ss6-30-xFK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lL3-lz-FcS" firstAttribute="centerX" secondItem="Lc6-ed-yF9" secondAttribute="centerX" id="0Ev-aE-PQM"/>
                             <constraint firstItem="Zhn-Q9-SLQ" firstAttribute="centerX" secondItem="Lc6-ed-yF9" secondAttribute="centerX" id="8IK-vs-A3J"/>
+                            <constraint firstItem="edZ-UT-4XS" firstAttribute="leading" secondItem="ss6-30-xFK" secondAttribute="leading" constant="30" id="9Ie-cA-Evd"/>
                             <constraint firstItem="iK2-rC-y56" firstAttribute="top" secondItem="lL3-lz-FcS" secondAttribute="bottom" constant="50" id="EMg-jh-EcP"/>
                             <constraint firstItem="Zhn-Q9-SLQ" firstAttribute="top" secondItem="iK2-rC-y56" secondAttribute="bottom" constant="100" id="L3H-8p-lyn"/>
                             <constraint firstItem="72o-65-1a8" firstAttribute="centerX" secondItem="Lc6-ed-yF9" secondAttribute="centerX" id="LHZ-Am-x4o"/>
                             <constraint firstItem="72o-65-1a8" firstAttribute="top" secondItem="iK2-rC-y56" secondAttribute="bottom" constant="150" id="O7c-sc-l8q"/>
                             <constraint firstItem="iK2-rC-y56" firstAttribute="centerX" secondItem="Lc6-ed-yF9" secondAttribute="centerX" id="PcF-Zj-MD3"/>
-                            <constraint firstItem="R9u-f2-mMM" firstAttribute="centerX" secondItem="Lc6-ed-yF9" secondAttribute="centerX" id="hhw-AU-q7v"/>
-                            <constraint firstItem="lL3-lz-FcS" firstAttribute="top" secondItem="ss6-30-xFK" secondAttribute="top" constant="100" id="oa3-lM-NW3"/>
-                            <constraint firstItem="R9u-f2-mMM" firstAttribute="top" secondItem="ss6-30-xFK" secondAttribute="top" constant="50" id="yRq-YT-CSe"/>
+                            <constraint firstItem="ss6-30-xFK" firstAttribute="trailing" secondItem="lL3-lz-FcS" secondAttribute="trailing" constant="107" id="Z4B-I8-YS2"/>
+                            <constraint firstItem="lL3-lz-FcS" firstAttribute="leading" secondItem="ss6-30-xFK" secondAttribute="leading" constant="107" id="bL1-Mm-f1g"/>
+                            <constraint firstItem="lL3-lz-FcS" firstAttribute="top" secondItem="ss6-30-xFK" secondAttribute="top" constant="100" id="omK-XI-kS7"/>
+                            <constraint firstItem="edZ-UT-4XS" firstAttribute="top" secondItem="ss6-30-xFK" secondAttribute="top" constant="50" id="qgv-9a-4mB"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -101,7 +103,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="book" width="1024" height="1024"/>
+        <image name="book1" width="1024" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

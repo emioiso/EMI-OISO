@@ -25,7 +25,7 @@
 	<string>ca-app-pub-7923877881339580~5255157417</string>
 	<key>GADIsManagerApp</key>
 	<string>true</string>
-	<key>CFBundleDisplayName</key>
+	<key>Bundledisplayname</key>
 	<string>EMI OISO</string>
 </dict>
 </plist>
