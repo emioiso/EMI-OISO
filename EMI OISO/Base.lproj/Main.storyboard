@@ -54,14 +54,22 @@
                                 <buttonConfiguration key="configuration" style="filled" title="2024年1月1日に考えたこと"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhn-Q9-SLQ">
-                                <rect key="frame" x="179" y="485" width="56" height="35"/>
+                                <rect key="frame" x="157" y="485" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Dby-Va-eAX"/>
+                                    <constraint firstAttribute="height" constant="30" id="oRl-7e-ddb"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="年表"/>
+                                <buttonConfiguration key="configuration" style="filled" title="History"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72o-65-1a8">
-                                <rect key="frame" x="179" y="535" width="56" height="35"/>
+                                <rect key="frame" x="157" y="535" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QLB-TK-w9o"/>
+                                    <constraint firstAttribute="width" constant="100" id="TLN-Sm-lGJ"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="作品"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Portfolio"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book1" translatesAutoresizingMaskIntoConstraints="NO" id="lL3-lz-FcS">
                                 <rect key="frame" x="107" y="100" width="200" height="200"/>
