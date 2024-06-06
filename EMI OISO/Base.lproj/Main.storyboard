@@ -119,8 +119,19 @@
                     <view key="view" contentMode="scaleToFill" id="cF5-V3-xwk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r36-VO-haE">
+                                <rect key="frame" x="30" y="50" width="78" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="〈  back"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Fkr-GS-Xh7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="r36-VO-haE" firstAttribute="leading" secondItem="Fkr-GS-Xh7" secondAttribute="leading" constant="30" id="2r4-v7-oaw"/>
+                            <constraint firstItem="r36-VO-haE" firstAttribute="top" secondItem="Fkr-GS-Xh7" secondAttribute="top" constant="50" id="fW8-wZ-VZa"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0t-3B-X7Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
