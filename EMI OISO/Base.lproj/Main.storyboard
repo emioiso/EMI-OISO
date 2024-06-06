@@ -124,6 +124,9 @@
                                 <rect key="frame" x="30" y="50" width="78" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="〈  back"/>
+                                <connections>
+                                    <segue destination="NFz-fr-EhQ" kind="presentation" id="9St-Fw-70x"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fkr-GS-Xh7"/>
@@ -139,6 +142,9 @@
             <point key="canvasLocation" x="1683" y="3"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9St-Fw-70x"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="book1" width="1024" height="1024"/>
         <systemColor name="systemBackgroundColor">
