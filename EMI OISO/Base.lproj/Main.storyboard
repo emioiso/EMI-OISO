@@ -124,28 +124,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAH-KV-A1b">
-                                <rect key="frame" x="36" y="50" width="78" height="35"/>
+                                <rect key="frame" x="36.000000000000007" y="50" width="77.666666666666686" height="34.333333333333343"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="〈  back"/>
                                 <connections>
                                     <segue destination="NFz-fr-EhQ" kind="presentation" id="RAQ-FN-VNM"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qGO-hN-e9A">
-                                <rect key="frame" x="0.0" y="89" width="414" height="647"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="K1Q-ct-TKz"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="kwa-ah-boT"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-Vm-Cpo">
+                                <rect key="frame" x="0.0" y="80" width="414" height="656"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0Fg-eU-HXa">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="656"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0Fg-eU-HXa" secondAttribute="bottom" id="4xj-QA-dcs"/>
+                                    <constraint firstItem="0Fg-eU-HXa" firstAttribute="leading" secondItem="TtU-Vm-Cpo" secondAttribute="leading" id="A4l-5i-Uex"/>
+                                    <constraint firstAttribute="trailing" secondItem="0Fg-eU-HXa" secondAttribute="trailing" id="sjW-Gs-Ecw"/>
+                                    <constraint firstItem="0Fg-eU-HXa" firstAttribute="top" secondItem="TtU-Vm-Cpo" secondAttribute="top" id="zq5-dK-x4V"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="yRM-vf-HVQ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7x5-eN-iFn"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wh3-qN-TxK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KAH-KV-A1b" firstAttribute="top" secondItem="Wh3-qN-TxK" secondAttribute="top" constant="50" id="2oh-Pg-r4o"/>
-                            <constraint firstItem="qGO-hN-e9A" firstAttribute="leading" secondItem="Wh3-qN-TxK" secondAttribute="leading" id="3WX-19-LXy"/>
                             <constraint firstItem="KAH-KV-A1b" firstAttribute="leading" secondItem="Wh3-qN-TxK" secondAttribute="leading" constant="36" id="Bpz-r8-P4J"/>
-                            <constraint firstItem="qGO-hN-e9A" firstAttribute="trailing" secondItem="Wh3-qN-TxK" secondAttribute="trailing" id="iFp-8Z-JbC"/>
-                            <constraint firstItem="qGO-hN-e9A" firstAttribute="top" secondItem="KAH-KV-A1b" secondAttribute="bottom" constant="50" id="nal-TW-PhB"/>
-                            <constraint firstItem="qGO-hN-e9A" firstAttribute="bottom" secondItem="Wh3-qN-TxK" secondAttribute="bottom" id="t1g-Uj-ZpS"/>
+                            <constraint firstItem="TtU-Vm-Cpo" firstAttribute="leading" secondItem="Wh3-qN-TxK" secondAttribute="leading" id="Jbt-Uo-eyD"/>
+                            <constraint firstAttribute="bottom" secondItem="TtU-Vm-Cpo" secondAttribute="bottom" id="MDH-hX-dFV"/>
+                            <constraint firstItem="TtU-Vm-Cpo" firstAttribute="top" secondItem="Wh3-qN-TxK" secondAttribute="top" constant="80" id="cKN-8U-I8T"/>
                         </constraints>
                     </view>
                 </viewController>
