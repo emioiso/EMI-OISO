@@ -115,15 +115,29 @@
             </objects>
             <point key="canvasLocation" x="936.23188405797111" y="3.2608695652173916"/>
         </scene>
-        <!--View Controller-->
+        <!--Portfolio View Controller-->
         <scene sceneID="1Pv-2b-PdI">
             <objects>
-                <viewController id="aqw-ll-v4d" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YpR-UT-W0C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                <viewController modalPresentationStyle="fullScreen" id="aqw-ll-v4d" customClass="PortfolioViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YpR-UT-W0C" customClass="PortfolioViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAH-KV-A1b">
+                                <rect key="frame" x="36" y="50" width="78" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="〈  back"/>
+                                <connections>
+                                    <segue destination="NFz-fr-EhQ" kind="presentation" id="RAQ-FN-VNM"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Wh3-qN-TxK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KAH-KV-A1b" firstAttribute="top" secondItem="Wh3-qN-TxK" secondAttribute="top" constant="50" id="2oh-Pg-r4o"/>
+                            <constraint firstItem="KAH-KV-A1b" firstAttribute="leading" secondItem="Wh3-qN-TxK" secondAttribute="leading" constant="36" id="Bpz-r8-P4J"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7H-QN-gZo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -195,8 +209,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="33f-PW-Cag"/>
-        <segue reference="9St-Fw-70x"/>
+        <segue reference="RAQ-FN-VNM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book1" width="1024" height="1024"/>
