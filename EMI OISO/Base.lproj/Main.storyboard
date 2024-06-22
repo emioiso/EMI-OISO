@@ -112,6 +112,21 @@
             </objects>
             <point key="canvasLocation" x="936.23188405797111" y="3.2608695652173916"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="1Pv-2b-PdI">
+            <objects>
+                <viewController id="aqw-ll-v4d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YpR-UT-W0C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Wh3-qN-TxK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E7H-QN-gZo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="721"/>
+        </scene>
         <!--History View Controller-->
         <scene sceneID="RQ5-IS-bFd">
             <objects>
@@ -128,18 +143,33 @@
                                     <segue destination="NFz-fr-EhQ" kind="presentation" id="9St-Fw-70x"/>
                                 </connections>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-lS-4bZ">
+                                <rect key="frame" x="0.0" y="93" width="414" height="643"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="et7-6S-BAB">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </stackView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="oqV-ZP-xhz"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="I6p-E9-vxi"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fkr-GS-Xh7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="r36-VO-haE" firstAttribute="leading" secondItem="Fkr-GS-Xh7" secondAttribute="leading" constant="30" id="2r4-v7-oaw"/>
+                            <constraint firstItem="cVe-lS-4bZ" firstAttribute="trailing" secondItem="Fkr-GS-Xh7" secondAttribute="trailing" id="AQs-vd-u6r"/>
+                            <constraint firstItem="cVe-lS-4bZ" firstAttribute="leading" secondItem="Fkr-GS-Xh7" secondAttribute="leading" id="Kjp-k0-wyT"/>
+                            <constraint firstItem="cVe-lS-4bZ" firstAttribute="bottom" secondItem="Fkr-GS-Xh7" secondAttribute="bottom" id="ORq-cg-UmA"/>
                             <constraint firstItem="r36-VO-haE" firstAttribute="top" secondItem="Fkr-GS-Xh7" secondAttribute="top" constant="50" id="fW8-wZ-VZa"/>
+                            <constraint firstItem="cVe-lS-4bZ" firstAttribute="top" secondItem="r36-VO-haE" secondAttribute="bottom" constant="50" id="vRW-Dm-5Na"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0t-3B-X7Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1683" y="3"/>
+            <point key="canvasLocation" x="1682.608695652174" y="2.4456521739130435"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
