@@ -73,6 +73,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Portfolio"/>
+                                <connections>
+                                    <segue destination="aqw-ll-v4d" kind="presentation" id="Nt1-2y-iUp"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book1" translatesAutoresizingMaskIntoConstraints="NO" id="lL3-lz-FcS">
                                 <rect key="frame" x="107" y="100" width="200" height="200"/>
@@ -117,7 +120,7 @@
             <objects>
                 <viewController id="aqw-ll-v4d" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YpR-UT-W0C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Wh3-qN-TxK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -125,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7H-QN-gZo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="936" y="721"/>
+            <point key="canvasLocation" x="975" y="827"/>
         </scene>
         <!--History View Controller-->
         <scene sceneID="RQ5-IS-bFd">
@@ -136,24 +139,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r36-VO-haE">
-                                <rect key="frame" x="30" y="50" width="78" height="35"/>
+                                <rect key="frame" x="30.000000000000007" y="50" width="77.666666666666686" height="34.333333333333343"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="〈  back"/>
                                 <connections>
                                     <segue destination="NFz-fr-EhQ" kind="presentation" id="9St-Fw-70x"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-lS-4bZ">
-                                <rect key="frame" x="0.0" y="93" width="414" height="643"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-lS-4bZ">
+                                <rect key="frame" x="0.0" y="134.33333333333331" width="414" height="601.66666666666674"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="et7-6S-BAB">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="et7-6S-BAB">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="34.333333333333336"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPn-pb-CNZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            </button>
+                                        </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqb-PO-PbD">
+                                        <rect key="frame" x="8" y="360" width="414" height="34.333333333333343"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="et7-6S-BAB" secondAttribute="bottom" id="IUf-j7-QVf"/>
                                     <constraint firstItem="et7-6S-BAB" firstAttribute="leading" secondItem="cVe-lS-4bZ" secondAttribute="leading" id="cqW-Io-QQk"/>
                                     <constraint firstAttribute="trailing" secondItem="et7-6S-BAB" secondAttribute="trailing" id="gr4-uK-3VJ"/>
+                                    <constraint firstAttribute="width" secondItem="et7-6S-BAB" secondAttribute="width" id="kU4-4M-4Mb"/>
                                     <constraint firstItem="et7-6S-BAB" firstAttribute="top" secondItem="cVe-lS-4bZ" secondAttribute="top" id="udb-f2-AFy"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="oqV-ZP-xhz"/>
@@ -178,6 +195,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="33f-PW-Cag"/>
         <segue reference="9St-Fw-70x"/>
     </inferredMetricsTieBreakers>
     <resources>
