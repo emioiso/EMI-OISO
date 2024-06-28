@@ -193,24 +193,28 @@
                                     <segue destination="NFz-fr-EhQ" kind="presentation" id="RAQ-FN-VNM"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-Vm-Cpo">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-Vm-Cpo">
                                 <rect key="frame" x="0.0" y="80" width="414" height="656"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-sw-QqV">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-sw-QqV">
+                                        <rect key="frame" x="0.0" y="0.0" width="412.33333333333331" height="150"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zoY-J0-ukI">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="zoY-J0-ukI">
+                                                <rect key="frame" x="0.0" y="0.0" width="412.33333333333331" height="150"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N9B-FL-ggG">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-24 11.22.13" translatesAutoresizingMaskIntoConstraints="NO" id="N9B-FL-ggG">
                                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="150" id="gAU-M6-fw2"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B1E-XH-VGE">
+                                                        <rect key="frame" x="210" y="0.0" width="202.33333333333337" height="150"/>
+                                                    </stackView>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="N9B-FL-ggG" secondAttribute="bottom" id="Abf-05-ZYg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="B1E-XH-VGE" secondAttribute="trailing" id="OJF-WA-9jy"/>
                                                     <constraint firstItem="N9B-FL-ggG" firstAttribute="leading" secondItem="zoY-J0-ukI" secondAttribute="leading" id="Pdb-LX-3s4"/>
                                                     <constraint firstAttribute="height" constant="150" id="m47-Vr-Dei"/>
                                                     <constraint firstItem="N9B-FL-ggG" firstAttribute="top" secondItem="zoY-J0-ukI" secondAttribute="top" id="p6a-ld-KHP"/>
@@ -226,7 +230,6 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="RPQ-sw-QqV" firstAttribute="leading" secondItem="TtU-Vm-Cpo" secondAttribute="leading" id="87u-z0-dVY"/>
-                                    <constraint firstAttribute="trailing" secondItem="RPQ-sw-QqV" secondAttribute="trailing" id="T0f-4C-LsG"/>
                                     <constraint firstItem="RPQ-sw-QqV" firstAttribute="top" secondItem="TtU-Vm-Cpo" secondAttribute="top" id="o35-J4-ciH"/>
                                     <constraint firstAttribute="bottom" secondItem="RPQ-sw-QqV" secondAttribute="bottom" id="ufa-iF-QaI"/>
                                 </constraints>
@@ -372,6 +375,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book1" width="1024" height="1024"/>
+        <image name="スクリーンショット 2024-06-24 11.22.13" width="160" height="154"/>
         <image name="スクリーンショット 2024-06-26 15.39.53" width="284" height="236"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
