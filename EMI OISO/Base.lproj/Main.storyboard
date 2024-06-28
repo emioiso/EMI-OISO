@@ -196,11 +196,29 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-Vm-Cpo">
                                 <rect key="frame" x="0.0" y="80" width="414" height="656"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-sw-QqV">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="656"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-sw-QqV">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zoY-J0-ukI">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="m47-Vr-Dei"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="zoY-J0-ukI" firstAttribute="top" secondItem="RPQ-sw-QqV" secondAttribute="top" id="1fE-aw-Mt0"/>
+                                            <constraint firstItem="zoY-J0-ukI" firstAttribute="leading" secondItem="RPQ-sw-QqV" secondAttribute="leading" id="oIX-FD-YZ7"/>
+                                            <constraint firstAttribute="trailing" secondItem="zoY-J0-ukI" secondAttribute="trailing" id="yw8-dr-8Nf"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="RPQ-sw-QqV" firstAttribute="leading" secondItem="TtU-Vm-Cpo" secondAttribute="leading" id="87u-z0-dVY"/>
+                                    <constraint firstAttribute="trailing" secondItem="RPQ-sw-QqV" secondAttribute="trailing" id="T0f-4C-LsG"/>
+                                    <constraint firstItem="RPQ-sw-QqV" firstAttribute="top" secondItem="TtU-Vm-Cpo" secondAttribute="top" id="o35-J4-ciH"/>
+                                    <constraint firstAttribute="bottom" secondItem="RPQ-sw-QqV" secondAttribute="bottom" id="ufa-iF-QaI"/>
+                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="yRM-vf-HVQ"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="7x5-eN-iFn"/>
                             </scrollView>
