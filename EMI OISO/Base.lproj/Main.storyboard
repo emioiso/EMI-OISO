@@ -197,55 +197,73 @@
                                 <rect key="frame" x="0.0" y="80" width="414" height="656"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-sw-QqV">
-                                        <rect key="frame" x="0.0" y="0.0" width="420" height="150"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="363.66666666666669" height="150"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zoY-J0-ukI">
-                                                <rect key="frame" x="0.0" y="0.0" width="420" height="150"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="zoY-J0-ukI">
+                                                <rect key="frame" x="0.0" y="0.0" width="363.66666666666669" height="150"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-24 11.22.13" translatesAutoresizingMaskIntoConstraints="NO" id="N9B-FL-ggG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="150" id="gAU-M6-fw2"/>
+                                                            <constraint firstAttribute="height" constant="100" id="AHg-rp-p6A"/>
+                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="KQv-RI-RdP"/>
                                                         </constraints>
                                                     </imageView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B1E-XH-VGE">
-                                                        <rect key="frame" x="150" y="0.0" width="270" height="150"/>
+                                                        <rect key="frame" x="124.99999999999999" y="0.0" width="238.66666666666663" height="150"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2024年2月14日にリリース。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5u-La-qFY">
-                                                                <rect key="frame" x="0.0" y="0.0" width="270" height="50"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5u-La-qFY">
+                                                                <rect key="frame" x="0.0" y="0.0" width="238.66666666666666" height="100"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="50" id="c70-1a-Vnl"/>
+                                                                    <constraint firstAttribute="height" constant="50" id="TE8-gD-dZv"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <string key="text">2024年2月14日にリリース。
+
+aaaaaa</string>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BMI数値を計測し肥満度がわかります" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTV-CJ-B8k">
-                                                                <rect key="frame" x="0.0" y="50" width="270" height="100"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <rect key="frame" x="0.0" y="100" width="238.66666666666666" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="50" id="lJe-9l-xt7"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                         <constraints>
                                                             <constraint firstItem="n5u-La-qFY" firstAttribute="top" secondItem="B1E-XH-VGE" secondAttribute="top" id="00S-en-7RA"/>
+                                                            <constraint firstAttribute="trailing" secondItem="n5u-La-qFY" secondAttribute="trailing" id="285-0Y-o0b"/>
                                                             <constraint firstAttribute="height" constant="150" id="2v1-th-wCI"/>
                                                             <constraint firstAttribute="trailing" secondItem="n5u-La-qFY" secondAttribute="trailing" id="Vuu-ex-ygD"/>
                                                             <constraint firstItem="n5u-La-qFY" firstAttribute="leading" secondItem="B1E-XH-VGE" secondAttribute="leading" id="dTK-Cj-5CP"/>
+                                                            <constraint firstItem="n5u-La-qFY" firstAttribute="top" secondItem="B1E-XH-VGE" secondAttribute="top" id="jHZ-j4-rz1"/>
+                                                            <constraint firstItem="RTV-CJ-B8k" firstAttribute="top" secondItem="n5u-La-qFY" secondAttribute="bottom" id="xjL-6M-ST4"/>
+                                                            <constraint firstItem="n5u-La-qFY" firstAttribute="leading" secondItem="B1E-XH-VGE" secondAttribute="leading" id="yb2-Aj-wQV"/>
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
+                                                    <constraint firstItem="N9B-FL-ggG" firstAttribute="leading" secondItem="zoY-J0-ukI" secondAttribute="leading" constant="25" id="5g1-pS-Hp8"/>
                                                     <constraint firstAttribute="bottom" secondItem="N9B-FL-ggG" secondAttribute="bottom" id="Abf-05-ZYg"/>
                                                     <constraint firstAttribute="trailing" secondItem="B1E-XH-VGE" secondAttribute="trailing" id="OJF-WA-9jy"/>
+                                                    <constraint firstAttribute="bottom" secondItem="N9B-FL-ggG" secondAttribute="bottom" constant="25" id="OgQ-2R-1ho"/>
                                                     <constraint firstItem="N9B-FL-ggG" firstAttribute="leading" secondItem="zoY-J0-ukI" secondAttribute="leading" id="Pdb-LX-3s4"/>
+                                                    <constraint firstItem="N9B-FL-ggG" firstAttribute="top" secondItem="zoY-J0-ukI" secondAttribute="top" constant="25" id="a43-em-hf1"/>
                                                     <constraint firstItem="B1E-XH-VGE" firstAttribute="top" secondItem="zoY-J0-ukI" secondAttribute="top" id="h45-qs-XMW"/>
                                                     <constraint firstItem="N9B-FL-ggG" firstAttribute="top" secondItem="zoY-J0-ukI" secondAttribute="top" id="p6a-ld-KHP"/>
+                                                    <constraint firstAttribute="height" constant="150" id="rw8-Od-dod"/>
+                                                    <constraint firstItem="N9B-FL-ggG" firstAttribute="top" secondItem="zoY-J0-ukI" secondAttribute="top" constant="25" id="rwp-91-z0I"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="zoY-J0-ukI" firstAttribute="top" secondItem="RPQ-sw-QqV" secondAttribute="top" id="1fE-aw-Mt0"/>
+                                            <constraint firstAttribute="bottom" secondItem="zoY-J0-ukI" secondAttribute="bottom" id="9Ax-ip-Zm4"/>
+                                            <constraint firstItem="zoY-J0-ukI" firstAttribute="top" secondItem="RPQ-sw-QqV" secondAttribute="top" id="Nh3-eI-usL"/>
                                             <constraint firstItem="zoY-J0-ukI" firstAttribute="leading" secondItem="RPQ-sw-QqV" secondAttribute="leading" id="oIX-FD-YZ7"/>
                                         </constraints>
                                     </stackView>
