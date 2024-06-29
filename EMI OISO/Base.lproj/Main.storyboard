@@ -196,32 +196,20 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-Vm-Cpo">
                                 <rect key="frame" x="0.0" y="80" width="414" height="656"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-sw-QqV">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBM-W5-THd">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="414" id="FrK-g6-SJa"/>
-                                                    <constraint firstAttribute="height" constant="150" id="vQ2-XN-ogB"/>
-                                                </constraints>
-                                            </stackView>
-                                        </subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Fb-Yl-I6q">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="656"/>
                                         <constraints>
-                                            <constraint firstItem="BBM-W5-THd" firstAttribute="leading" secondItem="RPQ-sw-QqV" secondAttribute="leading" id="2pw-xr-EBJ"/>
-                                            <constraint firstAttribute="trailing" secondItem="BBM-W5-THd" secondAttribute="trailing" id="HsE-EE-qgA"/>
-                                            <constraint firstAttribute="height" constant="150" id="RDS-Jx-Wiw"/>
-                                            <constraint firstItem="BBM-W5-THd" firstAttribute="top" secondItem="RPQ-sw-QqV" secondAttribute="top" id="oqG-73-asq"/>
-                                            <constraint firstAttribute="width" constant="414" id="ruf-xF-wkM"/>
+                                            <constraint firstAttribute="width" constant="414" id="b5d-Zv-fQY"/>
+                                            <constraint firstAttribute="height" constant="656" id="gyh-cx-u3v"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="RPQ-sw-QqV" firstAttribute="top" secondItem="TtU-Vm-Cpo" secondAttribute="top" id="QOX-Zx-pZh"/>
-                                    <constraint firstAttribute="trailing" secondItem="RPQ-sw-QqV" secondAttribute="trailing" id="RYj-5C-EPt"/>
-                                    <constraint firstItem="RPQ-sw-QqV" firstAttribute="top" secondItem="TtU-Vm-Cpo" secondAttribute="top" id="o35-J4-ciH"/>
-                                    <constraint firstItem="RPQ-sw-QqV" firstAttribute="leading" secondItem="TtU-Vm-Cpo" secondAttribute="leading" id="sJD-Ar-KJA"/>
-                                    <constraint firstAttribute="bottom" secondItem="RPQ-sw-QqV" secondAttribute="bottom" id="ufa-iF-QaI"/>
+                                    <constraint firstItem="4Fb-Yl-I6q" firstAttribute="top" secondItem="TtU-Vm-Cpo" secondAttribute="top" id="Hnu-Zg-d7L"/>
+                                    <constraint firstItem="4Fb-Yl-I6q" firstAttribute="width" secondItem="TtU-Vm-Cpo" secondAttribute="width" id="VbV-TY-odq"/>
+                                    <constraint firstItem="4Fb-Yl-I6q" firstAttribute="leading" secondItem="TtU-Vm-Cpo" secondAttribute="leading" id="gbu-pl-cy1"/>
+                                    <constraint firstAttribute="bottom" secondItem="4Fb-Yl-I6q" secondAttribute="bottom" id="iFQ-EZ-QPW"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Fb-Yl-I6q" secondAttribute="trailing" id="kZf-bk-1Sa"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="yRM-vf-HVQ"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="7x5-eN-iFn"/>
