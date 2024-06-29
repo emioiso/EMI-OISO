@@ -185,47 +185,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAH-KV-A1b">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAH-KV-A1b">
                                 <rect key="frame" x="10" y="50" width="77.666666666666671" height="34.333333333333343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="〈  back"/>
                                 <connections>
                                     <segue destination="NFz-fr-EhQ" kind="presentation" id="RAQ-FN-VNM"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-Vm-Cpo">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aIA-MZ-M7A">
                                 <rect key="frame" x="0.0" y="80" width="414" height="656"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Fb-Yl-I6q">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="656"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="414" id="b5d-Zv-fQY"/>
-                                            <constraint firstAttribute="height" constant="656" id="gyh-cx-u3v"/>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
                                 <constraints>
-                                    <constraint firstItem="4Fb-Yl-I6q" firstAttribute="top" secondItem="TtU-Vm-Cpo" secondAttribute="top" id="Hnu-Zg-d7L"/>
-                                    <constraint firstItem="4Fb-Yl-I6q" firstAttribute="width" secondItem="TtU-Vm-Cpo" secondAttribute="width" id="VbV-TY-odq"/>
-                                    <constraint firstItem="4Fb-Yl-I6q" firstAttribute="leading" secondItem="TtU-Vm-Cpo" secondAttribute="leading" id="gbu-pl-cy1"/>
-                                    <constraint firstAttribute="bottom" secondItem="4Fb-Yl-I6q" secondAttribute="bottom" id="iFQ-EZ-QPW"/>
-                                    <constraint firstAttribute="trailing" secondItem="4Fb-Yl-I6q" secondAttribute="trailing" id="kZf-bk-1Sa"/>
+                                    <constraint firstAttribute="height" constant="656" id="bxZ-3U-qgN"/>
+                                    <constraint firstAttribute="width" constant="414" id="gvL-ck-FL2"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="yRM-vf-HVQ"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="7x5-eN-iFn"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="2fF-bS-0Dc"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="w3L-Ku-8uT"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wh3-qN-TxK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="KAH-KV-A1b" firstAttribute="top" secondItem="Wh3-qN-TxK" secondAttribute="top" constant="50" id="2oh-Pg-r4o"/>
-                            <constraint firstItem="TtU-Vm-Cpo" firstAttribute="leading" secondItem="Wh3-qN-TxK" secondAttribute="leading" id="D71-Mg-XI3"/>
-                            <constraint firstItem="KAH-KV-A1b" firstAttribute="leading" secondItem="Wh3-qN-TxK" secondAttribute="leading" constant="10" id="GlP-QO-Bes"/>
-                            <constraint firstItem="TtU-Vm-Cpo" firstAttribute="leading" secondItem="Wh3-qN-TxK" secondAttribute="leading" id="Jbt-Uo-eyD"/>
-                            <constraint firstAttribute="bottom" secondItem="TtU-Vm-Cpo" secondAttribute="bottom" id="MDH-hX-dFV"/>
-                            <constraint firstItem="TtU-Vm-Cpo" firstAttribute="trailing" secondItem="Wh3-qN-TxK" secondAttribute="trailing" id="m8h-nM-dHu"/>
-                            <constraint firstItem="TtU-Vm-Cpo" firstAttribute="top" secondItem="Wh3-qN-TxK" secondAttribute="top" constant="80" id="w31-I5-awv"/>
-                            <constraint firstItem="TtU-Vm-Cpo" firstAttribute="bottom" secondItem="Wh3-qN-TxK" secondAttribute="bottom" id="xL6-Rr-KBs"/>
+                            <constraint firstItem="aIA-MZ-M7A" firstAttribute="top" secondItem="Wh3-qN-TxK" secondAttribute="top" constant="80" id="HhI-Oe-3WD"/>
+                            <constraint firstItem="aIA-MZ-M7A" firstAttribute="leading" secondItem="Wh3-qN-TxK" secondAttribute="leading" id="NL4-dl-dki"/>
+                            <constraint firstItem="aIA-MZ-M7A" firstAttribute="bottom" secondItem="Wh3-qN-TxK" secondAttribute="bottom" id="WpL-UV-FpL"/>
+                            <constraint firstItem="aIA-MZ-M7A" firstAttribute="trailing" secondItem="Wh3-qN-TxK" secondAttribute="trailing" id="dUU-fF-29g"/>
                         </constraints>
                     </view>
                 </viewController>
