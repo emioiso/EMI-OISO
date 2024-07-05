@@ -94,6 +94,9 @@
                                 <rect key="frame" x="0.0" y="50" width="77.666666666666671" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="〈  back"/>
+                                <connections>
+                                    <segue destination="NFz-fr-EhQ" kind="presentation" id="0OG-fG-ggd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="55E-DN-6fR"/>
@@ -343,7 +346,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RAQ-FN-VNM"/>
+        <segue reference="0OG-fG-ggd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book1" width="1024" height="1024"/>
