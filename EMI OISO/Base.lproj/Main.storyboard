@@ -49,43 +49,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nny-ue-1s7">
-                                <rect key="frame" x="170" y="151" width="75" height="35"/>
+                                <rect key="frame" x="170" y="234" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loj-wH-nGw">
-                                <rect key="frame" x="170" y="214" width="75" height="35"/>
+                                <rect key="frame" x="170" y="297" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gsx-uj-SLs">
-                                <rect key="frame" x="170" y="73" width="75" height="35"/>
+                                <rect key="frame" x="170" y="156" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HV-l5-rBn">
-                                <rect key="frame" x="170" y="280" width="75" height="35"/>
+                                <rect key="frame" x="170" y="363" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pb-tQ-EUf">
-                                <rect key="frame" x="170" y="323" width="75" height="35"/>
+                                <rect key="frame" x="170" y="406" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipY-Hb-pWk">
-                                <rect key="frame" x="170" y="383" width="75" height="35"/>
+                                <rect key="frame" x="170" y="466" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWq-on-2J6">
-                                <rect key="frame" x="170" y="444" width="75" height="35"/>
+                                <rect key="frame" x="170" y="527" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
@@ -246,103 +246,103 @@
                                     <segue destination="NFz-fr-EhQ" kind="presentation" id="9St-Fw-70x"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7YY-ne-dQS">
-                                <rect key="frame" x="0.0" y="80" width="414" height="656"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZ7-1c-tXa">
+                                <rect key="frame" x="0.0" y="100" width="414" height="636"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PPk-4g-qJT">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B9U-LW-JWj">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1392"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="f9F-W5-EWT">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipL-IX-gD1">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZq-eB-Hon">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="m0N-KN-2Up">
-                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="GFX-qp-rqp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="54y-hb-SQT"/>
-                                                            <constraint firstAttribute="width" constant="100" id="AzY-cf-sfI"/>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="qMP-J8-tHo"/>
+                                                            <constraint firstAttribute="width" constant="150" id="Dlp-eu-DeT"/>
+                                                            <constraint firstAttribute="height" constant="150" id="jfG-Di-3wB"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Imy-fY-gmC">
-                                                        <rect key="frame" x="100" y="0.0" width="314" height="100"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="atM-ph-fDQ">
+                                                        <rect key="frame" x="150" y="0.0" width="264" height="150"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2024" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gi-ck-G5u">
-                                                                <rect key="frame" x="0.0" y="0.0" width="314" height="20.333333333333332"/>
-                                                                <color key="backgroundColor" red="0.68235294120000001" green="0.78039215689999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="能登半島地震" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ya1-Mp-Fsj">
-                                                                <rect key="frame" x="0.0" y="20.333333333333329" width="314" height="20.333333333333329"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2024" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfq-gp-iN6">
+                                                                <rect key="frame" x="0.0" y="0.0" width="264" height="20.333333333333332"/>
                                                                 <color key="backgroundColor" red="0.68235294120000001" green="0.78039215689999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="珠洲市に遊びに来ていたら被災する。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnl-5e-htK">
-                                                                <rect key="frame" x="0.0" y="40.666666666666671" width="314" height="59.333333333333329"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="能登半島地震" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToK-Qn-fGy">
+                                                                <rect key="frame" x="0.0" y="20.333333333333329" width="264" height="20.333333333333329"/>
+                                                                <color key="backgroundColor" red="0.68235294120000001" green="0.78039215689999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="石川県珠洲時に観光に来ていたら被災する。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FI2-nc-Xhj">
+                                                                <rect key="frame" x="0.0" y="40.66666666666665" width="264" height="109.33333333333331"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <constraints>
-                                                            <constraint firstItem="4gi-ck-G5u" firstAttribute="leading" secondItem="Imy-fY-gmC" secondAttribute="leading" id="9WA-5q-QXj"/>
-                                                            <constraint firstAttribute="trailing" secondItem="4gi-ck-G5u" secondAttribute="trailing" id="ein-hX-Km1"/>
-                                                            <constraint firstItem="4gi-ck-G5u" firstAttribute="top" secondItem="Imy-fY-gmC" secondAttribute="top" id="vc1-uP-Mvj"/>
-                                                        </constraints>
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="m0N-KN-2Up" secondAttribute="bottom" id="6H7-rh-2CR"/>
-                                                    <constraint firstItem="m0N-KN-2Up" firstAttribute="leading" secondItem="ipL-IX-gD1" secondAttribute="leading" id="OFw-nZ-UBv"/>
-                                                    <constraint firstItem="m0N-KN-2Up" firstAttribute="top" secondItem="ipL-IX-gD1" secondAttribute="top" id="cLV-l1-L6C"/>
-                                                    <constraint firstAttribute="trailing" secondItem="Imy-fY-gmC" secondAttribute="trailing" id="vjh-w8-H4G"/>
-                                                    <constraint firstItem="Imy-fY-gmC" firstAttribute="top" secondItem="ipL-IX-gD1" secondAttribute="top" id="zJZ-ow-eFi"/>
+                                                    <constraint firstItem="GFX-qp-rqp" firstAttribute="leading" secondItem="OZq-eB-Hon" secondAttribute="leading" id="TXq-KK-ZfR"/>
+                                                    <constraint firstItem="GFX-qp-rqp" firstAttribute="top" secondItem="OZq-eB-Hon" secondAttribute="top" id="io6-RM-8Ym"/>
                                                 </constraints>
                                             </stackView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="QHr-Bs-CfS">
+                                                <rect key="frame" x="0.0" y="150" width="414" height="414"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="414" id="LLP-Pl-fJO"/>
+                                                    <constraint firstAttribute="width" constant="414" id="Ws4-Zb-U35"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="zxY-rF-eiQ">
+                                                <rect key="frame" x="0.0" y="564" width="414" height="414"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="414" id="G1z-Jz-k2Q"/>
+                                                    <constraint firstAttribute="height" constant="414" id="TRm-l5-Gof"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="Hv2-jz-hwa">
+                                                <rect key="frame" x="0.0" y="978" width="414" height="414"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="414" id="0er-Dh-86L"/>
+                                                    <constraint firstAttribute="width" constant="414" id="Mjc-uz-Tyk"/>
+                                                </constraints>
+                                            </imageView>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="ipL-IX-gD1" secondAttribute="trailing" id="EBf-C6-JwI"/>
-                                            <constraint firstItem="ipL-IX-gD1" firstAttribute="top" secondItem="PPk-4g-qJT" secondAttribute="top" id="Mf1-lJ-sK6"/>
-                                            <constraint firstItem="ipL-IX-gD1" firstAttribute="width" secondItem="PPk-4g-qJT" secondAttribute="width" id="USa-JL-EoQ"/>
-                                            <constraint firstAttribute="height" constant="100" id="l6x-E3-te7"/>
-                                            <constraint firstItem="ipL-IX-gD1" firstAttribute="leading" secondItem="PPk-4g-qJT" secondAttribute="leading" id="lSL-0I-QoN"/>
-                                            <constraint firstAttribute="width" constant="100" id="qAk-A3-NDK"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="PPk-4g-qJT" firstAttribute="leading" secondItem="7YY-ne-dQS" secondAttribute="leading" id="0ru-wI-gxX"/>
-                                    <constraint firstItem="PPk-4g-qJT" firstAttribute="width" secondItem="7YY-ne-dQS" secondAttribute="width" id="8la-va-IKR"/>
-                                    <constraint firstAttribute="trailing" secondItem="PPk-4g-qJT" secondAttribute="trailing" id="Qzh-HQ-OEE"/>
-                                    <constraint firstAttribute="bottom" secondItem="PPk-4g-qJT" secondAttribute="bottom" id="a62-BX-fi4"/>
-                                    <constraint firstItem="PPk-4g-qJT" firstAttribute="top" secondItem="7YY-ne-dQS" secondAttribute="top" id="wfh-xo-lWa"/>
+                                    <constraint firstAttribute="bottom" secondItem="B9U-LW-JWj" secondAttribute="bottom" id="Hhh-7d-M0b"/>
+                                    <constraint firstItem="B9U-LW-JWj" firstAttribute="top" secondItem="LZ7-1c-tXa" secondAttribute="top" id="Zyj-Wo-2aN"/>
+                                    <constraint firstItem="B9U-LW-JWj" firstAttribute="leading" secondItem="LZ7-1c-tXa" secondAttribute="leading" id="aSH-Ba-pBN"/>
+                                    <constraint firstAttribute="trailing" secondItem="B9U-LW-JWj" secondAttribute="trailing" id="sXF-Vx-MwT"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="MLj-AM-uY7"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="pOa-mg-Ies"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Ghk-Mo-M7v"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="sRb-X4-SAY"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fkr-GS-Xh7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7YY-ne-dQS" firstAttribute="top" secondItem="Fkr-GS-Xh7" secondAttribute="top" constant="80" id="Aj1-R4-1AX"/>
-                            <constraint firstItem="7YY-ne-dQS" firstAttribute="trailing" secondItem="Fkr-GS-Xh7" secondAttribute="trailing" id="LZZ-bN-vID"/>
+                            <constraint firstItem="LZ7-1c-tXa" firstAttribute="bottom" secondItem="Fkr-GS-Xh7" secondAttribute="bottom" id="MIt-vK-Tg2"/>
+                            <constraint firstItem="LZ7-1c-tXa" firstAttribute="leading" secondItem="Fkr-GS-Xh7" secondAttribute="leading" id="RiR-Gq-vVd"/>
+                            <constraint firstItem="LZ7-1c-tXa" firstAttribute="trailing" secondItem="Fkr-GS-Xh7" secondAttribute="trailing" id="Rjg-HI-aCg"/>
                             <constraint firstItem="r36-VO-haE" firstAttribute="leading" secondItem="Fkr-GS-Xh7" secondAttribute="leading" constant="10" id="a6t-hx-aNa"/>
+                            <constraint firstItem="LZ7-1c-tXa" firstAttribute="top" secondItem="Fkr-GS-Xh7" secondAttribute="top" constant="100" id="cxQ-Xv-sKy"/>
                             <constraint firstItem="r36-VO-haE" firstAttribute="top" secondItem="Fkr-GS-Xh7" secondAttribute="top" constant="50" id="fW8-wZ-VZa"/>
-                            <constraint firstItem="7YY-ne-dQS" firstAttribute="bottom" secondItem="Fkr-GS-Xh7" secondAttribute="bottom" id="guW-wl-Z3c"/>
-                            <constraint firstItem="7YY-ne-dQS" firstAttribute="leading" secondItem="Fkr-GS-Xh7" secondAttribute="leading" id="tKS-gn-tID"/>
                             <constraint firstItem="r36-VO-haE" firstAttribute="leading" secondItem="Fkr-GS-Xh7" secondAttribute="leading" constant="10" id="x73-LX-Jex"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0t-3B-X7Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1682.608695652174" y="2.4456521739130435"/>
+            <point key="canvasLocation" x="1911.594202898551" y="25.271739130434785"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
