@@ -250,36 +250,36 @@
                                 <rect key="frame" x="0.0" y="100" width="414" height="636"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B9U-LW-JWj">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1392"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1542"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZq-eB-Hon">
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kCg-br-82C">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="GFX-qp-rqp">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="2YN-EA-gOr">
                                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="150" id="Dlp-eu-DeT"/>
-                                                            <constraint firstAttribute="height" constant="150" id="jfG-Di-3wB"/>
+                                                            <constraint firstAttribute="width" constant="150" id="VyP-lI-meP"/>
+                                                            <constraint firstAttribute="height" constant="150" id="cK9-2K-q6d"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="atM-ph-fDQ">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4we-zP-6pb">
                                                         <rect key="frame" x="150" y="0.0" width="264" height="150"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2024" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfq-gp-iN6">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2024" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fn3-zj-ehS">
                                                                 <rect key="frame" x="0.0" y="0.0" width="264" height="20.333333333333332"/>
                                                                 <color key="backgroundColor" red="0.68235294120000001" green="0.78039215689999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="能登半島地震" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToK-Qn-fGy">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="能登半島地震" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbI-kN-Ogg">
                                                                 <rect key="frame" x="0.0" y="20.333333333333329" width="264" height="20.333333333333329"/>
                                                                 <color key="backgroundColor" red="0.68235294120000001" green="0.78039215689999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="石川県珠洲時に観光に来ていたら被災する。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FI2-nc-Xhj">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="石川県珠洲時に観光に来ていたら被災する。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSb-4g-THt">
                                                                 <rect key="frame" x="0.0" y="40.66666666666665" width="264" height="109.33333333333331"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
@@ -289,26 +289,67 @@
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="GFX-qp-rqp" firstAttribute="leading" secondItem="OZq-eB-Hon" secondAttribute="leading" id="TXq-KK-ZfR"/>
+                                                    <constraint firstItem="2YN-EA-gOr" firstAttribute="leading" secondItem="kCg-br-82C" secondAttribute="leading" id="8pP-ZQ-67R"/>
+                                                    <constraint firstItem="2YN-EA-gOr" firstAttribute="top" secondItem="kCg-br-82C" secondAttribute="top" id="NNv-5X-8qK"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZq-eB-Hon">
+                                                <rect key="frame" x="0.0" y="150" width="414" height="150"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="atM-ph-fDQ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="264" height="150"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2024" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfq-gp-iN6">
+                                                                <rect key="frame" x="0.0" y="0.0" width="264" height="20.333333333333332"/>
+                                                                <color key="backgroundColor" red="0.68235294120000001" green="0.78039215689999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="能登半島地震" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToK-Qn-fGy">
+                                                                <rect key="frame" x="0.0" y="20.333333333333314" width="264" height="20.333333333333329"/>
+                                                                <color key="backgroundColor" red="0.68235294120000001" green="0.78039215689999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="石川県珠洲時に観光に来ていたら被災する。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FI2-nc-Xhj">
+                                                                <rect key="frame" x="0.0" y="40.666666666666679" width="264" height="109.33333333333331"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="GFX-qp-rqp">
+                                                        <rect key="frame" x="264" y="0.0" width="150" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="V4a-iQ-Af4"/>
+                                                            <constraint firstAttribute="width" constant="150" id="Vvb-jw-CVc"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="GFX-qp-rqp" secondAttribute="trailing" id="M2k-F8-rMX"/>
                                                     <constraint firstItem="GFX-qp-rqp" firstAttribute="top" secondItem="OZq-eB-Hon" secondAttribute="top" id="io6-RM-8Ym"/>
                                                 </constraints>
                                             </stackView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="QHr-Bs-CfS">
-                                                <rect key="frame" x="0.0" y="150" width="414" height="414"/>
+                                                <rect key="frame" x="0.0" y="300" width="414" height="414"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="414" id="LLP-Pl-fJO"/>
                                                     <constraint firstAttribute="width" constant="414" id="Ws4-Zb-U35"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="zxY-rF-eiQ">
-                                                <rect key="frame" x="0.0" y="564" width="414" height="414"/>
+                                                <rect key="frame" x="0.0" y="714" width="414" height="414"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="414" id="G1z-Jz-k2Q"/>
                                                     <constraint firstAttribute="height" constant="414" id="TRm-l5-Gof"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2024-06-26 15.39.53" translatesAutoresizingMaskIntoConstraints="NO" id="Hv2-jz-hwa">
-                                                <rect key="frame" x="0.0" y="978" width="414" height="414"/>
+                                                <rect key="frame" x="0.0" y="1128" width="414" height="414"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="414" id="0er-Dh-86L"/>
                                                     <constraint firstAttribute="width" constant="414" id="Mjc-uz-Tyk"/>
