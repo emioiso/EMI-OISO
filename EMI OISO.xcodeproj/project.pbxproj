@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		85A2DAB62C2BFBB10094A179 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2DAB52C2BFBB10094A179 /* HistoryViewController.swift */; };
+		85B9934C2C4222FC00EA3B72 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B9934B2C4222FC00EA3B72 /* PortfolioViewController.swift */; };
 		85F4EA112C083F4600AA9202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA102C083F4600AA9202 /* AppDelegate.swift */; };
 		85F4EA132C083F4600AA9202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA122C083F4600AA9202 /* SceneDelegate.swift */; };
 		85F4EA152C083F4600AA9202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA142C083F4600AA9202 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		46A1F4B5C6B879866D797202 /* Pods-EMI OISO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMI OISO.release.xcconfig"; path = "Target Support Files/Pods-EMI OISO/Pods-EMI OISO.release.xcconfig"; sourceTree = "<group>"; };
 		822E5E6771DB5F6EE920CB19 /* Pods-EMI OISO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMI OISO.debug.xcconfig"; path = "Target Support Files/Pods-EMI OISO/Pods-EMI OISO.debug.xcconfig"; sourceTree = "<group>"; };
 		85A2DAB52C2BFBB10094A179 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		85B9934B2C4222FC00EA3B72 /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
 		85F4EA0D2C083F4600AA9202 /* EMI OISO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EMI OISO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F4EA102C083F4600AA9202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F4EA122C083F4600AA9202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				85F4EA102C083F4600AA9202 /* AppDelegate.swift */,
 				85F4EA122C083F4600AA9202 /* SceneDelegate.swift */,
 				85F4EA162C083F4600AA9202 /* Main.storyboard */,
+				85B9934B2C4222FC00EA3B72 /* PortfolioViewController.swift */,
 				85F4EA142C083F4600AA9202 /* ViewController.swift */,
 				85A2DAB52C2BFBB10094A179 /* HistoryViewController.swift */,
 				85F4EA262C08492D00AA9202 /* MenuViewController.swift */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85F4EA152C083F4600AA9202 /* ViewController.swift in Sources */,
+				85B9934C2C4222FC00EA3B72 /* PortfolioViewController.swift in Sources */,
 				85F4EA112C083F4600AA9202 /* AppDelegate.swift in Sources */,
 				85F4EA132C083F4600AA9202 /* SceneDelegate.swift in Sources */,
 				85A2DAB62C2BFBB10094A179 /* HistoryViewController.swift in Sources */,
