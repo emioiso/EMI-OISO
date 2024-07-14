@@ -546,7 +546,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="編集中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeO-ad-Wr1">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アロマテラピー検定1級取得" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeO-ad-Wr1">
                                                                 <rect key="frame" x="0.0" y="50" width="264" height="75"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
@@ -1745,7 +1745,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="編集中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5G-Ro-mfo">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="両親が別居し父を選ぶ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5G-Ro-mfo">
                                                                 <rect key="frame" x="0.0" y="50" width="264" height="75"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="75" id="0fm-AG-EML"/>
@@ -2172,11 +2172,35 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTv-Tg-ueb">
+                                        <rect key="frame" x="0.0" y="243" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="4fj-oy-6aA"/>
+                                            <constraint firstAttribute="height" constant="150" id="EHS-U3-RcG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nad-J2-mOt">
+                                        <rect key="frame" x="132" y="300" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="SJ5-wD-nw6"/>
+                                            <constraint firstAttribute="height" constant="150" id="TTY-GG-XYC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="B9U-LW-JWj" secondAttribute="bottom" id="Hhh-7d-M0b"/>
+                                    <constraint firstItem="lTv-Tg-ueb" firstAttribute="leading" secondItem="sRb-X4-SAY" secondAttribute="leading" id="KOK-Xd-hJI"/>
+                                    <constraint firstItem="Nad-J2-mOt" firstAttribute="top" secondItem="sRb-X4-SAY" secondAttribute="top" constant="300" id="PVU-3P-OOl"/>
+                                    <constraint firstItem="Nad-J2-mOt" firstAttribute="top" secondItem="LZ7-1c-tXa" secondAttribute="top" constant="300" id="VVN-h7-2RY"/>
                                     <constraint firstItem="B9U-LW-JWj" firstAttribute="top" secondItem="LZ7-1c-tXa" secondAttribute="top" id="Zyj-Wo-2aN"/>
                                     <constraint firstItem="B9U-LW-JWj" firstAttribute="leading" secondItem="LZ7-1c-tXa" secondAttribute="leading" id="aSH-Ba-pBN"/>
+                                    <constraint firstItem="Nad-J2-mOt" firstAttribute="top" secondItem="sRb-X4-SAY" secondAttribute="top" constant="300" id="p4M-p5-Fn5"/>
                                     <constraint firstAttribute="trailing" secondItem="B9U-LW-JWj" secondAttribute="trailing" id="sXF-Vx-MwT"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Ghk-Mo-M7v"/>
@@ -2198,7 +2222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0t-3B-X7Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1911.594202898551" y="25.271739130434785"/>
+            <point key="canvasLocation" x="1893" y="-24"/>
         </scene>
         <!--View Controller2024-->
         <scene sceneID="qvF-pF-WN1">
@@ -2692,9 +2716,8 @@ l+OBvuOBmeOAgg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GFd-uu-cNX"/>
         <segue reference="33f-PW-Cag"/>
-        <segue reference="OKl-dK-dbh"/>
+        <segue reference="9St-Fw-70x"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name=" BMI" width="100" height="100"/>
