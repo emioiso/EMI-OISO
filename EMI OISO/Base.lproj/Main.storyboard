@@ -2182,8 +2182,18 @@
                                         <nil key="textColor"/>
                                         <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="31" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80B-gN-I2s">
+                                        <rect key="frame" x="264" y="210" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="CtY-dM-yAa"/>
+                                            <constraint firstAttribute="height" constant="150" id="aTx-MH-vTa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nad-J2-mOt">
-                                        <rect key="frame" x="132" y="300" width="150" height="150"/>
+                                        <rect key="frame" x="0.0" y="300" width="150" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="150" id="SJ5-wD-nw6"/>
                                             <constraint firstAttribute="height" constant="150" id="TTY-GG-XYC"/>
@@ -2194,13 +2204,12 @@
                                     </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="sRb-X4-SAY" firstAttribute="trailing" secondItem="80B-gN-I2s" secondAttribute="trailing" id="2Gt-1h-MCB"/>
                                     <constraint firstAttribute="bottom" secondItem="B9U-LW-JWj" secondAttribute="bottom" id="Hhh-7d-M0b"/>
                                     <constraint firstItem="lTv-Tg-ueb" firstAttribute="leading" secondItem="sRb-X4-SAY" secondAttribute="leading" id="KOK-Xd-hJI"/>
-                                    <constraint firstItem="Nad-J2-mOt" firstAttribute="top" secondItem="sRb-X4-SAY" secondAttribute="top" constant="300" id="PVU-3P-OOl"/>
-                                    <constraint firstItem="Nad-J2-mOt" firstAttribute="top" secondItem="LZ7-1c-tXa" secondAttribute="top" constant="300" id="VVN-h7-2RY"/>
                                     <constraint firstItem="B9U-LW-JWj" firstAttribute="top" secondItem="LZ7-1c-tXa" secondAttribute="top" id="Zyj-Wo-2aN"/>
                                     <constraint firstItem="B9U-LW-JWj" firstAttribute="leading" secondItem="LZ7-1c-tXa" secondAttribute="leading" id="aSH-Ba-pBN"/>
-                                    <constraint firstItem="Nad-J2-mOt" firstAttribute="top" secondItem="sRb-X4-SAY" secondAttribute="top" constant="300" id="p4M-p5-Fn5"/>
+                                    <constraint firstItem="Nad-J2-mOt" firstAttribute="top" secondItem="LZ7-1c-tXa" secondAttribute="top" constant="300" id="rNY-pN-D6L"/>
                                     <constraint firstAttribute="trailing" secondItem="B9U-LW-JWj" secondAttribute="trailing" id="sXF-Vx-MwT"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Ghk-Mo-M7v"/>
