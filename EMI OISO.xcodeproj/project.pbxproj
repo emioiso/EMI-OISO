@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85A2DAB62C2BFBB10094A179 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A2DAB52C2BFBB10094A179 /* HistoryViewController.swift */; };
-		85B9934C2C4222FC00EA3B72 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B9934B2C4222FC00EA3B72 /* PortfolioViewController.swift */; };
 		85F4EA112C083F4600AA9202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA102C083F4600AA9202 /* AppDelegate.swift */; };
 		85F4EA132C083F4600AA9202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA122C083F4600AA9202 /* SceneDelegate.swift */; };
 		85F4EA152C083F4600AA9202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA142C083F4600AA9202 /* ViewController.swift */; };
@@ -16,15 +14,12 @@
 		85F4EA1A2C083F4700AA9202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F4EA192C083F4700AA9202 /* Assets.xcassets */; };
 		85F4EA1D2C083F4700AA9202 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 85F4EA1C2C083F4700AA9202 /* Base */; };
 		85F4EA252C083FB200AA9202 /* .gitignore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F4EA242C083FB200AA9202 /* .gitignore.xib */; };
-		85F4EA272C08492D00AA9202 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA262C08492D00AA9202 /* MenuViewController.swift */; };
 		BBA78E573F624F99A4228BE6 /* Pods_EMI_OISO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD096DA4119FB8878A23A14E /* Pods_EMI_OISO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		46A1F4B5C6B879866D797202 /* Pods-EMI OISO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMI OISO.release.xcconfig"; path = "Target Support Files/Pods-EMI OISO/Pods-EMI OISO.release.xcconfig"; sourceTree = "<group>"; };
 		822E5E6771DB5F6EE920CB19 /* Pods-EMI OISO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMI OISO.debug.xcconfig"; path = "Target Support Files/Pods-EMI OISO/Pods-EMI OISO.debug.xcconfig"; sourceTree = "<group>"; };
-		85A2DAB52C2BFBB10094A179 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		85B9934B2C4222FC00EA3B72 /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
 		85F4EA0D2C083F4600AA9202 /* EMI OISO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EMI OISO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F4EA102C083F4600AA9202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F4EA122C083F4600AA9202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +29,6 @@
 		85F4EA1C2C083F4700AA9202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85F4EA1E2C083F4700AA9202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F4EA242C083FB200AA9202 /* .gitignore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = .gitignore.xib; sourceTree = "<group>"; };
-		85F4EA262C08492D00AA9202 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		DD096DA4119FB8878A23A14E /* Pods_EMI_OISO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMI_OISO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,10 +86,7 @@
 				85F4EA102C083F4600AA9202 /* AppDelegate.swift */,
 				85F4EA122C083F4600AA9202 /* SceneDelegate.swift */,
 				85F4EA162C083F4600AA9202 /* Main.storyboard */,
-				85B9934B2C4222FC00EA3B72 /* PortfolioViewController.swift */,
 				85F4EA142C083F4600AA9202 /* ViewController.swift */,
-				85A2DAB52C2BFBB10094A179 /* HistoryViewController.swift */,
-				85F4EA262C08492D00AA9202 /* MenuViewController.swift */,
 				85F4EA192C083F4700AA9202 /* Assets.xcassets */,
 				85F4EA1B2C083F4700AA9202 /* LaunchScreen.storyboard */,
 				85F4EA1E2C083F4700AA9202 /* Info.plist */,
@@ -181,9 +172,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -220,11 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				85F4EA152C083F4600AA9202 /* ViewController.swift in Sources */,
-				85B9934C2C4222FC00EA3B72 /* PortfolioViewController.swift in Sources */,
 				85F4EA112C083F4600AA9202 /* AppDelegate.swift in Sources */,
 				85F4EA132C083F4600AA9202 /* SceneDelegate.swift in Sources */,
-				85A2DAB62C2BFBB10094A179 /* HistoryViewController.swift in Sources */,
-				85F4EA272C08492D00AA9202 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
