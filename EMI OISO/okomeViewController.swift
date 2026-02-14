@@ -11,6 +11,12 @@ import GoogleMobileAds
 class okomeViewController: UIViewController {
     
     var bannerView:GADBannerView!
+    
+    @IBAction func openNihonNougyouShinbun(_ sender: UIButton) {
+        if let url = URL(string: "https://www.agrinews.co.jp/news/index/353665") {
+            UIApplication.shared.open(url)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
