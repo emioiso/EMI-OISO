@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		856D03A32F402B90005C1CA4 /* hatenaAtsumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856D03A22F402B90005C1CA4 /* hatenaAtsumeViewController.swift */; };
+		856D03A52F404222005C1CA4 /* iOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856D03A42F404222005C1CA4 /* iOSViewController.swift */; };
+		85B1EE252F407FFC00D36570 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1EE242F407FFC00D36570 /* HomeViewController.swift */; };
+		85B1EE272F40802500D36570 /* sentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1EE262F40802500D36570 /* sentoViewController.swift */; };
+		85B1EE292F40803800D36570 /* okomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1EE282F40803800D36570 /* okomeViewController.swift */; };
+		85B1EE2B2F40804A00D36570 /* carViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1EE2A2F40804A00D36570 /* carViewController.swift */; };
+		85B1EE2D2F40806100D36570 /* iamclubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1EE2C2F40806100D36570 /* iamclubViewController.swift */; };
+		85B1EE2F2F40807D00D36570 /* noumisoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1EE2E2F40807D00D36570 /* noumisoViewController.swift */; };
+		85B1EE312F40809000D36570 /* outputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1EE302F40809000D36570 /* outputViewController.swift */; };
+		85B1EE332F40809C00D36570 /* kiokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1EE322F40809C00D36570 /* kiokuViewController.swift */; };
 		85F4EA112C083F4600AA9202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA102C083F4600AA9202 /* AppDelegate.swift */; };
 		85F4EA132C083F4600AA9202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA122C083F4600AA9202 /* SceneDelegate.swift */; };
 		85F4EA152C083F4600AA9202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F4EA142C083F4600AA9202 /* ViewController.swift */; };
@@ -20,6 +30,16 @@
 /* Begin PBXFileReference section */
 		46A1F4B5C6B879866D797202 /* Pods-EMI OISO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMI OISO.release.xcconfig"; path = "Target Support Files/Pods-EMI OISO/Pods-EMI OISO.release.xcconfig"; sourceTree = "<group>"; };
 		822E5E6771DB5F6EE920CB19 /* Pods-EMI OISO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMI OISO.debug.xcconfig"; path = "Target Support Files/Pods-EMI OISO/Pods-EMI OISO.debug.xcconfig"; sourceTree = "<group>"; };
+		856D03A22F402B90005C1CA4 /* hatenaAtsumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hatenaAtsumeViewController.swift; sourceTree = "<group>"; };
+		856D03A42F404222005C1CA4 /* iOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSViewController.swift; sourceTree = "<group>"; };
+		85B1EE242F407FFC00D36570 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		85B1EE262F40802500D36570 /* sentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sentoViewController.swift; sourceTree = "<group>"; };
+		85B1EE282F40803800D36570 /* okomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = okomeViewController.swift; sourceTree = "<group>"; };
+		85B1EE2A2F40804A00D36570 /* carViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carViewController.swift; sourceTree = "<group>"; };
+		85B1EE2C2F40806100D36570 /* iamclubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iamclubViewController.swift; sourceTree = "<group>"; };
+		85B1EE2E2F40807D00D36570 /* noumisoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noumisoViewController.swift; sourceTree = "<group>"; };
+		85B1EE302F40809000D36570 /* outputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outputViewController.swift; sourceTree = "<group>"; };
+		85B1EE322F40809C00D36570 /* kiokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiokuViewController.swift; sourceTree = "<group>"; };
 		85F4EA0D2C083F4600AA9202 /* EMI OISO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EMI OISO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F4EA102C083F4600AA9202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F4EA122C083F4600AA9202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +106,16 @@
 				85F4EA102C083F4600AA9202 /* AppDelegate.swift */,
 				85F4EA122C083F4600AA9202 /* SceneDelegate.swift */,
 				85F4EA162C083F4600AA9202 /* Main.storyboard */,
+				85B1EE322F40809C00D36570 /* kiokuViewController.swift */,
+				85B1EE302F40809000D36570 /* outputViewController.swift */,
+				85B1EE2E2F40807D00D36570 /* noumisoViewController.swift */,
+				85B1EE2C2F40806100D36570 /* iamclubViewController.swift */,
+				85B1EE2A2F40804A00D36570 /* carViewController.swift */,
+				85B1EE282F40803800D36570 /* okomeViewController.swift */,
+				85B1EE262F40802500D36570 /* sentoViewController.swift */,
+				85B1EE242F407FFC00D36570 /* HomeViewController.swift */,
+				856D03A42F404222005C1CA4 /* iOSViewController.swift */,
+				856D03A22F402B90005C1CA4 /* hatenaAtsumeViewController.swift */,
 				85F4EA142C083F4600AA9202 /* ViewController.swift */,
 				85F4EA192C083F4700AA9202 /* Assets.xcassets */,
 				85F4EA1B2C083F4700AA9202 /* LaunchScreen.storyboard */,
@@ -214,9 +244,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856D03A32F402B90005C1CA4 /* hatenaAtsumeViewController.swift in Sources */,
 				85F4EA152C083F4600AA9202 /* ViewController.swift in Sources */,
+				85B1EE2F2F40807D00D36570 /* noumisoViewController.swift in Sources */,
+				856D03A52F404222005C1CA4 /* iOSViewController.swift in Sources */,
+				85B1EE272F40802500D36570 /* sentoViewController.swift in Sources */,
+				85B1EE2D2F40806100D36570 /* iamclubViewController.swift in Sources */,
 				85F4EA112C083F4600AA9202 /* AppDelegate.swift in Sources */,
+				85B1EE2B2F40804A00D36570 /* carViewController.swift in Sources */,
 				85F4EA132C083F4600AA9202 /* SceneDelegate.swift in Sources */,
+				85B1EE312F40809000D36570 /* outputViewController.swift in Sources */,
+				85B1EE292F40803800D36570 /* okomeViewController.swift in Sources */,
+				85B1EE252F407FFC00D36570 /* HomeViewController.swift in Sources */,
+				85B1EE332F40809C00D36570 /* kiokuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

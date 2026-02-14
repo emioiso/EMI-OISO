@@ -40,22 +40,22 @@
             </objects>
             <point key="canvasLocation" x="-146" y="-90"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="EUN-Fs-dwu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="qRa-Cb-2i4" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qRa-Cb-2i4" customClass="HomeViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8aF-if-xWF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWK-Xe-syQ">
-                                <rect key="frame" x="151" y="372" width="73" height="35"/>
+                                <rect key="frame" x="151" y="321" width="73" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="MENU"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgh-DV-A6D">
-                                <rect key="frame" x="52" y="447" width="63" height="35"/>
+                                <rect key="frame" x="52" y="366" width="63" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="１♨️"/>
@@ -64,13 +64,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgC-PK-HIk">
-                                <rect key="frame" x="251" y="610" width="61" height="35"/>
+                                <rect key="frame" x="251" y="529" width="61" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="WEB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kv5-7c-CdT">
-                                <rect key="frame" x="159" y="447" width="57" height="35"/>
+                                <rect key="frame" x="159" y="366" width="57" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="2🌾"/>
@@ -79,25 +79,25 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwh-Dy-RTG">
-                                <rect key="frame" x="260" y="373" width="63" height="35"/>
+                                <rect key="frame" x="260" y="322" width="63" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="MAIL"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvn-Yg-gbZ">
-                                <rect key="frame" x="56" y="373" width="56" height="35"/>
+                                <rect key="frame" x="56" y="322" width="56" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="電話"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3C-cr-jKs">
-                                <rect key="frame" x="52" y="610" width="72" height="35"/>
+                                <rect key="frame" x="52" y="529" width="72" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="連絡先"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cg1-qa-nhS">
-                                <rect key="frame" x="251" y="446" width="58" height="35"/>
+                                <rect key="frame" x="251" y="365" width="58" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="3📱"/>
@@ -106,7 +106,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acp-FW-TWg">
-                                <rect key="frame" x="158" y="502" width="58" height="35"/>
+                                <rect key="frame" x="158" y="421" width="58" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="5🧶"/>
@@ -115,7 +115,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUB-kC-TCp">
-                                <rect key="frame" x="251" y="502" width="58" height="35"/>
+                                <rect key="frame" x="251" y="421" width="58" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="6🧠"/>
@@ -124,7 +124,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIL-I3-52f">
-                                <rect key="frame" x="54" y="503" width="58" height="35"/>
+                                <rect key="frame" x="54" y="422" width="58" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="4🚗"/>
@@ -133,7 +133,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8N-hA-egY">
-                                <rect key="frame" x="158" y="557" width="58" height="35"/>
+                                <rect key="frame" x="158" y="476" width="58" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="8🎨"/>
@@ -142,7 +142,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxh-WW-BK0">
-                                <rect key="frame" x="249" y="556" width="63" height="35"/>
+                                <rect key="frame" x="249" y="475" width="63" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="９📝"/>
@@ -151,7 +151,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uv3-Y6-2zc">
-                                <rect key="frame" x="55" y="558" width="57" height="35"/>
+                                <rect key="frame" x="55" y="477" width="57" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="7📖"/>
@@ -160,13 +160,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEH-fm-E30">
-                                <rect key="frame" x="167" y="606" width="40" height="35"/>
+                                <rect key="frame" x="167" y="525" width="40" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="０"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EMI OISO 2026" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owo-LM-IQj">
-                                <rect key="frame" x="128" y="323" width="118" height="21"/>
+                                <rect key="frame" x="128" y="294" width="118" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -182,30 +182,30 @@
             </objects>
             <point key="canvasLocation" x="501.60000000000002" y="-90.404797601199405"/>
         </scene>
-        <!--View Controller-->
+        <!--Sento View Controller-->
         <scene sceneID="8WW-Iw-8Yf">
             <objects>
-                <viewController id="HUv-nx-bYa" sceneMemberID="viewController">
+                <viewController id="HUv-nx-bYa" customClass="sentoViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7RZ-16-1eh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="♨️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJl-1a-kP6">
-                                <rect key="frame" x="157" y="78" width="60" height="60"/>
+                                <rect key="frame" x="157" y="21" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ただいまとおかえりを温める" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDT-hi-uz7">
-                                <rect key="frame" x="84" y="156" width="207" height="21"/>
+                                <rect key="frame" x="84" y="99" width="207" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vI1-DT-2nN">
-                                <rect key="frame" x="100" y="208" width="175" height="61"/>
+                                <rect key="frame" x="100" y="151" width="175" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">海浜あみだ湯労働者組合
 副理事
@@ -214,8 +214,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0768-82-6275" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVT-DF-UOC">
+                                <rect key="frame" x="130" y="280" width="115" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0A-B1-EIZ">
+                                <rect key="frame" x="100" y="231" width="174" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">営業時間 14:00〜21:00
+水/木定休日</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpN-sj-ASr">
-                                <rect key="frame" x="84" y="314" width="227" height="61"/>
+                                <rect key="frame" x="74" y="309" width="227" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">〒927-1213
 石川県珠洲市野々江町ナ部5-３
@@ -224,13 +240,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0768-82-6275" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVT-DF-UOC">
-                                <rect key="frame" x="130" y="412" width="115" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AE-ia-sP4">
+                                <rect key="frame" x="145" y="396" width="84" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="amidayu"/>
+                                <connections>
+                                    <action selector="openAmidayu:" destination="HUv-nx-bYa" eventType="touchUpInside" id="3wW-6N-bhu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYD-U3-OyE">
+                                <rect key="frame" x="34" y="396" width="84" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="insta" title=""/>
+                                <connections>
+                                    <action selector="openAmidayuInsta:" destination="HUv-nx-bYa" eventType="touchUpInside" id="IKP-9f-TLD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSe-5z-0hO">
+                                <rect key="frame" x="257" y="391" width="84" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="LINE" title=""/>
+                                <connections>
+                                    <action selector="openAmdayuLine:" destination="HUv-nx-bYa" eventType="touchUpInside" id="K6N-TO-fsU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnM-kH-v6n">
+                                <rect key="frame" x="190" y="358" width="84" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="GoogleMaps" title=""/>
+                                <connections>
+                                    <action selector="openGoogleMaps:" destination="HUv-nx-bYa" eventType="touchUpInside" id="QsK-WY-4cP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6ss-9f-W1X"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -239,12 +284,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4x-pY-o6a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1161" y="-90"/>
+            <point key="canvasLocation" x="1160.8" y="-90.404797601199405"/>
         </scene>
-        <!--View Controller-->
+        <!--Okome View Controller-->
         <scene sceneID="GxI-QU-dwG">
             <objects>
-                <viewController id="2jb-0v-MpA" sceneMemberID="viewController">
+                <viewController id="2jb-0v-MpA" customClass="okomeViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="an2-xA-DDN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -263,18 +308,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大礒恵美" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3G-nf-wr7">
-                                <rect key="frame" x="155" y="180" width="64" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dl9-bp-rOn">
+                                <rect key="frame" x="37" y="277" width="301" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">令和7年度、珠洲市若山町で育てたお米は
+合計3.9トンの収穫となりました。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dl9-bp-rOn">
-                                <rect key="frame" x="53" y="277" width="269" height="41"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ifh-KT-X1b">
+                                <rect key="frame" x="67" y="326" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">2025年
-令和7年度は３.9トン収穫できまた！</string>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大礒恵美" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3G-nf-wr7">
+                                <rect key="frame" x="157" y="195" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -289,10 +338,10 @@
             </objects>
             <point key="canvasLocation" x="1760.8" y="-90.404797601199405"/>
         </scene>
-        <!--View Controller-->
+        <!--iOS View Controller-->
         <scene sceneID="c5B-qG-6h8">
             <objects>
-                <viewController id="Rru-sq-zCT" sceneMemberID="viewController">
+                <viewController id="Rru-sq-zCT" customClass="iOSViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CWc-kY-pqH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -311,6 +360,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEE-Im-Dy8">
+                                <rect key="frame" x="126" y="178" width="122" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="apple"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nk9-QI-eea">
+                                <rect key="frame" x="126" y="286" width="122" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="BMI"/>
+                                <connections>
+                                    <action selector="openbmi:" destination="Rru-sq-zCT" eventType="touchUpInside" id="e1s-xk-doI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EZn-Hf-Uqa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -319,12 +383,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5lH-lD-RJH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2362" y="-90"/>
+            <point key="canvasLocation" x="2360.8000000000002" y="-90.404797601199405"/>
         </scene>
-        <!--View Controller-->
+        <!--Car View Controller-->
         <scene sceneID="zLH-zL-MEB">
             <objects>
-                <viewController id="PMh-wI-sox" sceneMemberID="viewController">
+                <viewController id="PMh-wI-sox" customClass="carViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F5q-jN-e4O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,12 +415,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sKs-wl-M3I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1161" y="547"/>
+            <point key="canvasLocation" x="1161" y="546"/>
         </scene>
-        <!--View Controller-->
+        <!--Output View Controller-->
         <scene sceneID="RHh-cC-CSL">
             <objects>
-                <viewController id="ZWU-nj-IFj" sceneMemberID="viewController">
+                <viewController id="ZWU-nj-IFj" customClass="outputViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eKS-QZ-AlH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -385,10 +449,10 @@
             </objects>
             <point key="canvasLocation" x="1161" y="1185"/>
         </scene>
-        <!--View Controller-->
+        <!--Kioku View Controller-->
         <scene sceneID="md2-V7-cic">
             <objects>
-                <viewController id="gUd-Vy-yIT" sceneMemberID="viewController">
+                <viewController id="gUd-Vy-yIT" customClass="kiokuViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V1V-uH-Nf0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -424,10 +488,10 @@
             </objects>
             <point key="canvasLocation" x="1760.8" y="1184.257871064468"/>
         </scene>
-        <!--View Controller-->
+        <!--Iamclub View Controller-->
         <scene sceneID="4hV-z9-oqr">
             <objects>
-                <viewController id="0st-vo-JKP" sceneMemberID="viewController">
+                <viewController id="0st-vo-JKP" customClass="iamclubViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vts-Ec-ucm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -462,10 +526,10 @@
             </objects>
             <point key="canvasLocation" x="1761" y="546"/>
         </scene>
-        <!--View Controller-->
+        <!--Noumiso View Controller-->
         <scene sceneID="bOj-BJ-Zzu">
             <objects>
-                <viewController id="rFq-ur-NVY" sceneMemberID="viewController">
+                <viewController id="rFq-ur-NVY" customClass="noumisoViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nmP-Xp-M7J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -497,10 +561,10 @@ kashuuchuuk
             </objects>
             <point key="canvasLocation" x="2361" y="546"/>
         </scene>
-        <!--View Controller-->
+        <!--Hatena Atsume View Controller-->
         <scene sceneID="fR7-Vb-Iig">
             <objects>
-                <viewController id="xDD-fq-FaD" sceneMemberID="viewController">
+                <viewController id="xDD-fq-FaD" customClass="hatenaAtsumeViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fTJ-at-5zs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -519,6 +583,52 @@ kashuuchuuk
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCL-Hs-n1F">
+                                <rect key="frame" x="0.0" y="212" width="122" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="github"/>
+                                <connections>
+                                    <action selector="openGithub:" destination="xDD-fq-FaD" eventType="touchUpInside" id="XjQ-pf-zgB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jje-fG-qLg">
+                                <rect key="frame" x="261" y="220" width="72" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="AtCoder"/>
+                                <connections>
+                                    <action selector="openAtCoder:" destination="xDD-fq-FaD" eventType="touchUpInside" id="qbq-ug-igp"/>
+                                    <action selector="openGithub:" destination="xDD-fq-FaD" eventType="touchUpInside" id="R8x-OH-GXQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwI-Fy-s8S">
+                                <rect key="frame" x="119" y="212" width="122" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="qiita"/>
+                                <connections>
+                                    <action selector="openQiita:" destination="xDD-fq-FaD" eventType="touchUpInside" id="Nec-cc-l13"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zki-hg-MJD">
+                                <rect key="frame" x="5" y="320" width="117" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="note"/>
+                                <connections>
+                                    <action selector="openNote:" destination="xDD-fq-FaD" eventType="touchUpInside" id="d2k-bj-Qu4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeO-yX-QiK">
+                                <rect key="frame" x="119" y="320" width="117" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="insta"/>
+                                <connections>
+                                    <action selector="openInsta:" destination="xDD-fq-FaD" eventType="touchUpInside" id="BWp-NJ-lLh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cG0-cM-PfW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -527,10 +637,20 @@ kashuuchuuk
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K61-oT-ahD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2361" y="1184"/>
+            <point key="canvasLocation" x="2360.8000000000002" y="1183.3583208395803"/>
         </scene>
     </scenes>
     <resources>
+        <image name="AtCoder" width="58" height="48"/>
+        <image name="BMI" width="60" height="60"/>
+        <image name="GoogleMaps" width="60" height="11"/>
+        <image name="LINE" width="60" height="60"/>
+        <image name="amidayu" width="60" height="50"/>
+        <image name="apple" width="108.85157012939453" height="40"/>
+        <image name="github" width="60" height="59"/>
+        <image name="insta" width="60" height="60"/>
+        <image name="note" width="60" height="60"/>
+        <image name="qiita" width="60" height="60"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

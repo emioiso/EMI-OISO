@@ -8,9 +8,9 @@
 import UIKit
 import GoogleMobileAds
 
-var bannerView:GADBannerView!
-
 class ViewController: UIViewController {
+    
+    var bannerView:GADBannerView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         addBannerViewToView(bannerView)
-        // Do any additional setup after loading the view.
     }
     func addBannerViewToView(_ bannerView: GADBannerView){
                 bannerView.translatesAutoresizingMaskIntoConstraints = false
