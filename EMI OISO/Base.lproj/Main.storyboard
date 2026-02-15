@@ -52,112 +52,112 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="TAJ-ZN-JwF">
-                                <rect key="frame" x="28" y="318" width="345" height="213"/>
+                                <rect key="frame" x="28" y="318" width="312" height="131"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="MLL-gJ-J1w" userLabel="1">
-                                        <rect key="frame" x="0.0" y="0.0" width="345" height="34.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="120" translatesAutoresizingMaskIntoConstraints="NO" id="MLL-gJ-J1w" userLabel="1">
+                                        <rect key="frame" x="0.0" y="0.0" width="312" height="14"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHU-q2-Kef">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="HUv-nx-bYa" kind="show" id="u3M-SO-IJ4"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dT1-6i-xZR">
-                                                <rect key="frame" x="135" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="144" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="2jb-0v-MpA" kind="show" id="AUv-V0-d3c"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7G-l1-MhE">
-                                                <rect key="frame" x="270" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="288" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="Rru-sq-zCT" kind="show" id="ECZ-fR-geI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="SdZ-KL-v0I" userLabel="2">
-                                        <rect key="frame" x="0.0" y="59.5" width="345" height="34.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="120" translatesAutoresizingMaskIntoConstraints="NO" id="SdZ-KL-v0I" userLabel="2">
+                                        <rect key="frame" x="0.0" y="39" width="312" height="14"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOd-o1-JmD">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="PMh-wI-sox" kind="show" id="sUf-sI-lPX"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ty-DT-d9c">
-                                                <rect key="frame" x="135" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="144" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="0st-vo-JKP" kind="show" id="s3c-ND-Lps"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fC-gx-O7O">
-                                                <rect key="frame" x="270" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="288" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="rFq-ur-NVY" kind="show" id="fgV-rs-T3y"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="KdS-B1-IDm" userLabel="3">
-                                        <rect key="frame" x="0.0" y="119" width="345" height="34.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="120" translatesAutoresizingMaskIntoConstraints="NO" id="KdS-B1-IDm" userLabel="3">
+                                        <rect key="frame" x="0.0" y="78" width="312" height="14"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejJ-6y-wJl">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="ZWU-nj-IFj" kind="show" id="diM-Tk-SSr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBx-Ao-Shu">
-                                                <rect key="frame" x="135" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="144" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="gUd-Vy-yIT" kind="show" id="zZR-Bm-L81"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yw-SJ-0Sc">
-                                                <rect key="frame" x="270" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="288" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
                                                     <segue destination="xDD-fq-FaD" kind="show" id="3jW-PA-WVV"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="No8-dm-TJH" userLabel="4">
-                                        <rect key="frame" x="0.0" y="178.5" width="345" height="34.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="120" translatesAutoresizingMaskIntoConstraints="NO" id="No8-dm-TJH" userLabel="4">
+                                        <rect key="frame" x="0.0" y="117" width="312" height="14"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCa-Vu-Zaw">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gW-7X-IUH">
-                                                <rect key="frame" x="135" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="144" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAB-8r-Vi2">
-                                                <rect key="frame" x="270" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="288" y="0.0" width="24" height="14"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
                                             </button>
                                         </subviews>
                                     </stackView>
