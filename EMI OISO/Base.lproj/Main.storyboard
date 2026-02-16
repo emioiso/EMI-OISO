@@ -51,8 +51,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gal" translatesAutoresizingMaskIntoConstraints="NO" id="upS-nl-LvZ">
                                 <rect key="frame" x="0.0" y="-160" width="375" height="852"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="pLW-LI-60A">
-                                <rect key="frame" x="35" y="210" width="305" height="213"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="pLW-LI-60A">
+                                <rect key="frame" x="35" y="229.5" width="305" height="213"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="L6v-gm-rbz" userLabel="1">
                                         <rect key="frame" x="0.0" y="0.0" width="305" height="34.5"/>
@@ -61,16 +61,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="HUv-nx-bYa" kind="show" id="RlF-du-C6h"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nv-9a-6qh">
                                                 <rect key="frame" x="115" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="2jb-0v-MpA" kind="show" id="9yM-pH-4aZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jU1-4G-Gxv">
                                                 <rect key="frame" x="230" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="Rru-sq-zCT" kind="show" id="qdm-CC-Sf2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -81,16 +90,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="PMh-wI-sox" kind="show" id="KI1-wv-aZt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3z-p9-9Oj">
                                                 <rect key="frame" x="115" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="0st-vo-JKP" kind="show" id="QE9-7K-vGz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otP-lV-Bhr">
                                                 <rect key="frame" x="230" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="rFq-ur-NVY" kind="show" id="MYG-AP-2RE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -101,16 +119,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="ZWU-nj-IFj" kind="show" id="SX0-D8-0LV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9o9-Hr-DqL">
                                                 <rect key="frame" x="115" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="gUd-Vy-yIT" kind="show" id="G6a-9O-DDz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaK-SV-4va">
                                                 <rect key="frame" x="230" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <segue destination="xDD-fq-FaD" kind="show" id="gNJ-Va-IuH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -140,9 +167,11 @@
                         <viewLayoutGuide key="safeArea" id="Y3h-k4-yo9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="pLW-LI-60A" firstAttribute="leading" secondItem="Y3h-k4-yo9" secondAttribute="leading" constant="35" id="3pl-v1-hwR"/>
                             <constraint firstItem="upS-nl-LvZ" firstAttribute="top" secondItem="8aF-if-xWF" secondAttribute="top" constant="-160" id="C45-ee-GtM"/>
                             <constraint firstAttribute="bottom" secondItem="upS-nl-LvZ" secondAttribute="bottom" constant="-25" id="H9O-P0-H2P"/>
                             <constraint firstItem="upS-nl-LvZ" firstAttribute="trailing" secondItem="Y3h-k4-yo9" secondAttribute="trailing" id="Tye-iZ-q9p"/>
+                            <constraint firstItem="Y3h-k4-yo9" firstAttribute="trailing" secondItem="pLW-LI-60A" secondAttribute="trailing" constant="35" id="a0q-D7-NJq"/>
                             <constraint firstItem="pLW-LI-60A" firstAttribute="centerY" secondItem="upS-nl-LvZ" secondAttribute="centerY" constant="70" id="j1a-jh-Qp8"/>
                             <constraint firstItem="upS-nl-LvZ" firstAttribute="leading" secondItem="Y3h-k4-yo9" secondAttribute="leading" id="x0g-9A-xhu"/>
                         </constraints>
@@ -158,7 +187,7 @@
             <objects>
                 <viewController id="HUv-nx-bYa" customClass="sentoViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7RZ-16-1eh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="♨️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJl-1a-kP6">
@@ -269,7 +298,7 @@
             <objects>
                 <viewController id="2jb-0v-MpA" customClass="okomeViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="an2-xA-DDN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="しまわない選択肢を考える" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnx-qM-Iz9">
@@ -344,7 +373,7 @@
             <objects>
                 <viewController id="Rru-sq-zCT" customClass="iOSViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CWc-kY-pqH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="📱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBM-to-Jx2">
@@ -400,7 +429,7 @@ EMI OISO</string>
             <objects>
                 <viewController id="PMh-wI-sox" customClass="carViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F5q-jN-e4O">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🚗" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLQ-bk-TgP">
@@ -439,7 +468,7 @@ EMI OISO</string>
             <objects>
                 <viewController id="ZWU-nj-IFj" customClass="outputViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eKS-QZ-AlH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="📖" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArY-cR-0IW">
@@ -478,7 +507,7 @@ EMI OISO</string>
             <objects>
                 <viewController id="gUd-Vy-yIT" customClass="kiokuViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V1V-uH-Nf0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🎨" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIO-QJ-SZq">
@@ -524,7 +553,7 @@ EMI OISO</string>
             <objects>
                 <viewController id="0st-vo-JKP" customClass="iamclubViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vts-Ec-ucm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ほどいて、また編む" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7o-mY-lAa">
@@ -570,7 +599,7 @@ EMI OISO</string>
             <objects>
                 <viewController id="rFq-ur-NVY" customClass="noumisoViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nmP-Xp-M7J">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🧠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZo-GO-wwW">
@@ -612,7 +641,7 @@ kashuuchuuk
             <objects>
                 <viewController id="xDD-fq-FaD" customClass="hatenaAtsumeViewController" customModule="EMI_OISO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fTJ-at-5zs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="📝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGQ-th-Ozp">
