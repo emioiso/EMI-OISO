@@ -435,47 +435,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="📱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBM-to-Jx2">
-                                <rect key="frame" x="157" y="57" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="サイゼの間違い探しが好きです。&lt;/&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tL0-BS-Tmv">
-                                <rect key="frame" x="55" y="134" width="265" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nk9-QI-eea">
-                                <rect key="frame" x="126" y="286" width="122" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="BMI"/>
-                                <connections>
-                                    <action selector="openbmi:" destination="Rru-sq-zCT" eventType="touchUpInside" id="e1s-xk-doI"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-ll-p0t">
-                                <rect key="frame" x="133" y="173" width="109" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">iOSエンジニア
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="u5U-m7-wwz">
+                                <rect key="frame" x="50" y="20" width="275.5" height="336.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBM-to-Jx2">
+                                        <rect key="frame" x="0.0" y="0.0" width="275.5" height="58.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="サイゼの間違い探しが好きです。&lt;/&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tL0-BS-Tmv">
+                                        <rect key="frame" x="0.0" y="58.5" width="275.5" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="nQw-X9-MhU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-ll-p0t">
+                                        <rect key="frame" x="0.0" y="108.5" width="275.5" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="lnU-DD-zRi"/>
+                                        </constraints>
+                                        <string key="text">iOSエンジニア
 EMI OISO</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEE-Im-Dy8">
-                                <rect key="frame" x="126" y="222" width="122" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="apple"/>
-                            </button>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEE-Im-Dy8">
+                                        <rect key="frame" x="0.0" y="208.5" width="275.5" height="54"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="apple"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nk9-QI-eea">
+                                        <rect key="frame" x="0.0" y="262.5" width="275.5" height="74"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="BMI"/>
+                                        <connections>
+                                            <action selector="openbmi:" destination="Rru-sq-zCT" eventType="touchUpInside" id="e1s-xk-doI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EZn-Hf-Uqa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EZn-Hf-Uqa" firstAttribute="bottom" secondItem="u5U-m7-wwz" secondAttribute="bottom" constant="290.5" id="Avj-Sf-Myi"/>
+                            <constraint firstItem="u5U-m7-wwz" firstAttribute="leading" secondItem="EZn-Hf-Uqa" secondAttribute="leading" constant="50" id="Dh0-dF-dXL"/>
+                            <constraint firstItem="u5U-m7-wwz" firstAttribute="top" secondItem="EZn-Hf-Uqa" secondAttribute="top" constant="20" id="FcW-e6-fzG"/>
+                            <constraint firstItem="EZn-Hf-Uqa" firstAttribute="trailing" secondItem="u5U-m7-wwz" secondAttribute="trailing" constant="49.5" id="sWH-N1-ZxY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ruV-4m-Zka"/>
                 </viewController>
