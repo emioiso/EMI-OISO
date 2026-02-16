@@ -21,26 +21,19 @@ class ViewController: UIViewController {
         bannerView.load(GADRequest())
         addBannerViewToView(bannerView)
     }
-    func addBannerViewToView(_ bannerView: GADBannerView){
-                bannerView.translatesAutoresizingMaskIntoConstraints = false
-                view.addSubview(bannerView)
-                view.addConstraints(
-                    [NSLayoutConstraint(item: bannerView,
-                                        attribute: .bottom,
-                                        relatedBy: .equal,
-                                        toItem: view.safeAreaLayoutGuide,
-                                        attribute: .bottom,
-                                        multiplier: 1,
-                                        constant: 0),
-                     NSLayoutConstraint(item: bannerView,
-                                        attribute: .centerX,
-                                        relatedBy: .equal,
-                                        toItem: view,
-                                        attribute: .centerX,
-                                        multiplier: 1,
-                                        constant: 0)
-                    ])
-            }
+    func addBannerViewToView(_ bannerView: GADBannerView) {
+        bannerView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(bannerView)
+
+        NSLayoutConstraint.activate([
+            bannerView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            bannerView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+
+            // これ大事：左右いっぱい（Adaptive banner でも安定）
+            bannerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            bannerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+        ])
+    }
 
 }
 
