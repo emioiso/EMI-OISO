@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Bundledisplayname</key>
+	<string>EMI OISO</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-7923877881339580~5255157417</string>
+	<key>GADIsManagerApp</key>
+	<string>true</string>
 	<key>KAdNetworkIdentifier</key>
 	<string>cstr6suwn9.skadnetwork</string>
 	<key>UIApplicationSceneManifest</key>
@@ -23,11 +29,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-7923877881339580~5255157417</string>
-	<key>GADIsManagerApp</key>
-	<string>true</string>
-	<key>Bundledisplayname</key>
-	<string>EMI OISO</string>
 </dict>
 </plist>
