@@ -803,9 +803,8 @@ kashuuchuuk
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjm-1H-01z" customClass="HitTestPassthroughView" customModule="EMI_OISO" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjm-1H-01z" customClass="HitTestPassthroughView" customModule="EMI_OISO" customModuleProvider="target">
                                 <rect key="frame" x="67" y="259" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OiO-Yb-VHv">
                                         <rect key="frame" x="-89" y="27" width="418" height="74"/>
@@ -869,14 +868,18 @@ kashuuchuuk
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="QGQ-th-Ozp" firstAttribute="top" secondItem="cG0-cM-PfW" secondAttribute="top" constant="43" id="80h-Hp-RAo"/>
+                            <constraint firstItem="cG0-cM-PfW" firstAttribute="bottom" secondItem="sjm-1H-01z" secondAttribute="bottom" constant="260" id="Bok-FJ-1Bb"/>
                             <constraint firstItem="cG0-cM-PfW" firstAttribute="trailing" secondItem="NiR-Pk-bo4" secondAttribute="trailing" constant="120" id="C5m-zN-ImQ"/>
                             <constraint firstItem="cG0-cM-PfW" firstAttribute="trailing" secondItem="dUL-eC-pdy" secondAttribute="trailing" constant="151" id="H9r-hh-fx8"/>
                             <constraint firstItem="NiR-Pk-bo4" firstAttribute="top" secondItem="QGQ-th-Ozp" secondAttribute="bottom" constant="7.5" id="OIO-6S-hTr"/>
+                            <constraint firstItem="cG0-cM-PfW" firstAttribute="trailing" secondItem="sjm-1H-01z" secondAttribute="trailing" constant="68" id="Ok9-Wz-Cdz"/>
                             <constraint firstItem="NiR-Pk-bo4" firstAttribute="leading" secondItem="cG0-cM-PfW" secondAttribute="leading" constant="119" id="Pti-2r-V1A"/>
                             <constraint firstItem="dUL-eC-pdy" firstAttribute="leading" secondItem="cG0-cM-PfW" secondAttribute="leading" constant="151" id="Qi1-yi-Lwc"/>
                             <constraint firstItem="QGQ-th-Ozp" firstAttribute="leading" secondItem="cG0-cM-PfW" secondAttribute="leading" constant="157" id="SYd-EF-tJO"/>
+                            <constraint firstItem="sjm-1H-01z" firstAttribute="leading" secondItem="cG0-cM-PfW" secondAttribute="leading" constant="67" id="UXX-rd-wJR"/>
                             <constraint firstItem="dUL-eC-pdy" firstAttribute="top" secondItem="NiR-Pk-bo4" secondAttribute="bottom" constant="7.5" id="X8B-LB-vxy"/>
                             <constraint firstItem="cG0-cM-PfW" firstAttribute="trailing" secondItem="QGQ-th-Ozp" secondAttribute="trailing" constant="158" id="qOm-SM-jTn"/>
+                            <constraint firstItem="sjm-1H-01z" firstAttribute="top" secondItem="dUL-eC-pdy" secondAttribute="bottom" constant="101.5" id="xfv-ui-YOH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HEV-zg-71v"/>
