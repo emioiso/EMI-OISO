@@ -10,7 +10,7 @@ import GoogleMobileAds
 
 class sentoViewController: UIViewController {
     
-    var bannerView:GADBannerView!
+    var bannerView:BannerView!
     
     @IBAction func openAmidayu(_ sender: UIButton) {
         if let url = URL(string: "https://www.amidayu-suzu.com/") {
@@ -38,14 +38,14 @@ class sentoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        bannerView = GADBannerView(adSize: GADAdSizeBanner)
+        bannerView = BannerView(adSize: AdSizeBanner)
         bannerView.adUnitID = "ca-app-pub-7923877881339580/8419542650"
         bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        bannerView.load(Request())
         addBannerViewToView(bannerView)
     }
     
-    func addBannerViewToView(_ bannerView: GADBannerView) {
+    func addBannerViewToView(_ bannerView: BannerView) {
         bannerView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(bannerView)
 

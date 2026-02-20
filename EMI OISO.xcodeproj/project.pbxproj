@@ -138,7 +138,7 @@
 				85F4EA092C083F4600AA9202 /* Sources */,
 				85F4EA0A2C083F4600AA9202 /* Frameworks */,
 				85F4EA0B2C083F4600AA9202 /* Resources */,
-				8435F718B7724AEEC69536B0 /* [CP] Embed Pods Frameworks */,
+				5F8E4840F8BCCE93A94A634B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,25 +197,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8435F718B7724AEEC69536B0 /* [CP] Embed Pods Frameworks */ = {
+		5F8E4840F8BCCE93A94A634B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EMI OISO/Pods-EMI OISO-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C86FFE887AC9484720DEFF5F /* [CP] Check Pods Manifest.lock */ = {

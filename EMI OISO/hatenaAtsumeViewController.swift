@@ -11,7 +11,7 @@ import GoogleMobileAds
 final class hatenaAtsumeViewController: UIViewController {
 
     // ===== AdMob =====
-    private var bannerView: GADBannerView!
+    private var bannerView: BannerView!
 
     // ===== Marquee =====
     // Storyboardで「アイコン5個をまとめたコンテナView」を用意して接続してね
@@ -67,10 +67,10 @@ final class hatenaAtsumeViewController: UIViewController {
         super.viewDidLoad()
 
         // ----- AdMob -----
-        bannerView = GADBannerView(adSize: GADAdSizeBanner)
+        bannerView = BannerView(adSize: AdSizeBanner)
         bannerView.adUnitID = "ca-app-pub-7923877881339580/8419542650"
         bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        bannerView.load(Request())
         addBannerViewToView(bannerView)
 
         // 念のため（無効化事故対策）
@@ -100,7 +100,7 @@ final class hatenaAtsumeViewController: UIViewController {
     // =====================
     // AdMob layout
     // =====================
-    private func addBannerViewToView(_ bannerView: GADBannerView) {
+    private func addBannerViewToView(_ bannerView: BannerView) {
         bannerView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(bannerView)
 
