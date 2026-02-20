@@ -729,57 +729,69 @@ kashuuchuuk
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCL-Hs-n1F">
-                                <rect key="frame" x="0.0" y="212" width="122" height="100"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjm-1H-01z" customClass="HitTestPassthroughView" customModule="EMI_OISO" customModuleProvider="target">
+                                <rect key="frame" x="67" y="259" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="github"/>
-                                <connections>
-                                    <action selector="openGithub:" destination="xDD-fq-FaD" eventType="touchUpInside" id="XjQ-pf-zgB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jje-fG-qLg">
-                                <rect key="frame" x="261" y="220" width="72" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="AtCoder"/>
-                                <connections>
-                                    <action selector="openAtCoder:" destination="xDD-fq-FaD" eventType="touchUpInside" id="qbq-ug-igp"/>
-                                    <action selector="openGithub:" destination="xDD-fq-FaD" eventType="touchUpInside" id="R8x-OH-GXQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwI-Fy-s8S">
-                                <rect key="frame" x="119" y="212" width="122" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="qiita"/>
-                                <connections>
-                                    <action selector="openQiita:" destination="xDD-fq-FaD" eventType="touchUpInside" id="Nec-cc-l13"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zki-hg-MJD">
-                                <rect key="frame" x="5" y="320" width="117" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="note"/>
-                                <connections>
-                                    <action selector="openNote:" destination="xDD-fq-FaD" eventType="touchUpInside" id="d2k-bj-Qu4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeO-yX-QiK">
-                                <rect key="frame" x="119" y="320" width="117" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="insta"/>
-                                <connections>
-                                    <action selector="openInsta:" destination="xDD-fq-FaD" eventType="touchUpInside" id="BWp-NJ-lLh"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OiO-Yb-VHv">
+                                        <rect key="frame" x="-89" y="27" width="418" height="74"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCL-Hs-n1F" userLabel="Github">
+                                                <rect key="frame" x="0.0" y="0.0" width="84" height="74"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="github"/>
+                                                <connections>
+                                                    <action selector="openGithub:" destination="xDD-fq-FaD" eventType="touchUpInside" id="P9B-RT-5HC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jje-fG-qLg" userLabel="AtCoder">
+                                                <rect key="frame" x="84" y="0.0" width="82" height="74"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="AtCoder"/>
+                                                <connections>
+                                                    <action selector="openAtCoder:" destination="xDD-fq-FaD" eventType="touchUpInside" id="62H-Cf-rNI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwI-Fy-s8S" userLabel="Qiita">
+                                                <rect key="frame" x="166" y="0.0" width="84" height="74"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="84" id="eaF-9W-OmQ"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="qiita"/>
+                                                <connections>
+                                                    <action selector="openQiita:" destination="xDD-fq-FaD" eventType="touchUpInside" id="g1v-e7-YBC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zki-hg-MJD" userLabel="note">
+                                                <rect key="frame" x="250" y="0.0" width="84" height="74"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="note"/>
+                                                <connections>
+                                                    <action selector="openNote:" destination="xDD-fq-FaD" eventType="touchUpInside" id="ibo-DZ-3yU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeO-yX-QiK" userLabel="instagram">
+                                                <rect key="frame" x="334" y="0.0" width="84" height="74"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="insta"/>
+                                                <connections>
+                                                    <action selector="openInsta:" destination="xDD-fq-FaD" eventType="touchUpInside" id="VS3-n1-ocT"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cG0-cM-PfW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="HEV-zg-71v"/>
+                    <connections>
+                        <outlet property="marqueeContainer" destination="OiO-Yb-VHv" id="xDG-B5-ajh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K61-oT-ahD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
